@@ -1,6 +1,6 @@
 Data Exported from: C:/cygwin/home/ndbusek/devel/safecast/bGeigieNano/hardware/bGeigieNanoKit/bGeigieNanoKit.brd
 with: C:/Program Files (x86)/EAGLE-6.3.0/ulp/statistic-brd.ulp Version 1.3.7
-at: 2012-11-05 21:55:18
+at: 2012-12-23 16:34:25
 EAGLE Version 6.3.0 Copyright (c) 1988-2012 CadSoft
 
 all Values in mm
@@ -15,39 +15,39 @@ used layers 2
 16 Bottom
 _________________________
 
-163   	 Wire(s) incl. Arc(s)
-1     	 Polygon(s)
+225   	 Wire(s) incl. Arc(s)
+2     	 Polygon(s)
 _________________________
 0     	 SMD(s) top
-0     	 SMD(s) bottom
+2     	 SMD(s) bottom
 ===================
-0     	 SMD(s) total
+2     	 SMD(s) total
 
-138   	 PAD(s)
+163   	 PAD(s)
 _________________________
-3     	 Via
-7     	 Hole
+9     	 Via
+0     	 Hole
 ===================
-145   	 Drills total
+163   	 Drills total
 _________________________
 0	 tCream
-0	 bCream
+2	 bCream
 _________________________
 Routing Info: 
-35    	 Signal(s) 
-138   	 PAD/SMD total
+45    	 Signal(s) 
+165   	 PAD/SMD total
 ===================
-108   	 PAD/SMD on Signal
+150   	 PAD/SMD on Signal
 _________________________
 Packages used area:
-~ 5656.71 mm² (0.566 dm²)
+~ 6891.35 mm² (0.689 dm²)
 _________________________
 
 
 ============================
 
 ============================
-36 Elements: 0 locked / 36 unlocked
+41 Elements: 0 locked / 41 unlocked
 0 Testpoints (TP)
 
 ----------------------------
@@ -74,7 +74,7 @@ Nb.	Name	Used
  29	tStop	1
  30	bStop	1
  31	tCream	0
- 32	bCream	0
+ 32	bCream	1
  33	tFinish	0
  34	bFinish	0
  35	tGlue	0
@@ -87,7 +87,7 @@ Nb.	Name	Used
  42	bRestrict	1
  43	vRestrict	1
  44	Drills	1
- 45	Holes	1
+ 45	Holes	0
  46	Milling	0
  47	Measures	0
  48	Document	1
@@ -149,7 +149,6 @@ Nb.	Name	Used
 219	219bmp	0
 220	220bmp	0
 221	221bmp	0
-222	222bmp	0
 223	223bmp	0
 224	224bmp	0
 248	Housing	0
@@ -161,29 +160,29 @@ Nb.	Name	Used
 ----------------------------
 CLASS
 # 	Name	min. Width	Clearance	min. Drill	Used
-0	default	0.4064 	0.3048 	0.2540 	31  
+0	default	0.4064 	0.3048 	0.2540 	41  
 1	PWP	0.8128 	0.3048 	0.2540 	2   
 2	HIGH_PWR	1.4224 	0.4064 	0.5080 	2   
 
 ----------------------------
 WIDTH
 WIRE	Q.
-0.4064 	58  
-0.8128 	69  
-1.4224 	36  
+0.6096 	185 
+1.4224 	40  
 
 ARC	Q.
  * Wire width are saved in 0.2 micron resolution.
 
 POLY. width	Q.
-0.8128 	1   
+0.8128 	2   
 
 POLY. Isol.	Q.
-0.3048 	1   
+0.3048 	2   
 
 Polygon
 Type	Name	Layer	Rank	Width
 Signal	GND	16	1	0.813
+Signal	GND	1	1	0.813
  * Wire width are saved in 0.2 micron resolution.
 
 ----------------------------
@@ -198,164 +197,168 @@ TEXT (s)	Q.
 
 ----------------------------
 SMD x	SMD y	Roundn.	Q.
+0.6350 	1.2700 	0%	2   
 
 PAD tDiam	Q.
-1.6764 	9   
 1.2192 	37  
-2.5400 	1   
-2.2500 	4   
+1.6764 	11  
 1.3500 	2   
+1.8796 	66  
+1.7780 	27  
+3.2160 	2   
 1.5240 	3   
-1.8796 	50  
-1.7780 	21  
-3.0000 	2   
+1.9304 	2   
+3.5160 	4   
 1.2000 	5   
 4.0160 	4   
 
 PAD bDiam	Q.
-1.6764 	9   
 1.2192 	37  
-2.5400 	1   
-2.2500 	4   
+1.6764 	11  
 1.3500 	2   
+1.8796 	66  
+1.7780 	27  
+3.2160 	2   
 1.5240 	3   
-1.8796 	50  
-1.7780 	21  
-3.0000 	2   
+1.9304 	2   
+3.5160 	4   
 1.2000 	5   
 4.0160 	4   
 
 PAD tRestring	Q.
-0.4318 	56  
 0.2032 	37  
-0.5200 	1   
-0.3750 	4   
+0.4318 	72  
 0.2250 	2   
+0.3890 	25  
+0.5080 	10  
 0.2540 	3   
-0.3882 	3   
+0.4652 	2   
+0.3882 	5   
 0.4390 	2   
-0.3890 	9   
-0.5000 	2   
 0.2000 	5   
-0.3810 	10  
-0.5080 	4   
 
 PAD bRestring	Q.
-0.4318 	56  
 0.2032 	37  
-0.5200 	1   
-0.3750 	4   
+0.4318 	72  
 0.2250 	2   
+0.3890 	25  
+0.5080 	10  
 0.2540 	3   
-0.3882 	3   
+0.4652 	2   
+0.3882 	5   
 0.4390 	2   
-0.3890 	9   
-0.5000 	2   
 0.2000 	5   
-0.3810 	10  
-0.5080 	4   
 
 PAD iDiam	Q.
 1.2192 	43  
-2.2500 	5   
-1.3500 	7   
-1.5240 	63  
-1.5000 	9   
-3.0000 	2   
+1.3500 	9   
+1.5240 	69  
+1.5000 	27  
+3.2160 	2   
+3.5160 	4   
 1.2000 	5   
 4.0160 	4   
 
 PAD iRestring	Q.
 0.2032 	43  
-0.3750 	5   
-0.2250 	7   
-0.2540 	63  
-0.2500 	9   
-0.5000 	2   
+0.2250 	9   
+0.2540 	69  
+0.2500 	27  
+0.5080 	10  
 0.2000 	5   
-0.5080 	4   
 
 VIA Outer-Diam	Q.
-0.9556 	3   
+0.9556 	9   
 
 VIA Outer-Restring 	Q.
-0.1778 	3   
+0.1778 	9   
 
 VIA Inner-Diam.	Q.
-0.9556 	3   
+0.9556 	9   
 
 VIA Inner-Restring	Q.
-0.1778 	3   
+0.1778 	9   
 
 VIA drill	Q.
 
 VIA Stack	Q.
-01-16	3   
-01-16-PAD	138 
+01-16	9   
+01-16-PAD	163 
 
 PAD drill	Q.
 0.8128 	43  
-1.5000 	5   
-0.9000 	7   
-1.0160 	63  
-1.0000 	9   
-2.0000 	2   
+0.9000 	9   
+1.0160 	69  
+1.0000 	27  
+2.2000 	2   
+2.5000 	4   
 0.8000 	5   
 3.0000 	4   
 
 ----------------------------
 HOLE drill	Q.
-1.5000 	3   
-2.2000 	4   
 
 RACK
 T01   0.6
 T02   0.8
 T03   0.9
 T04   1.0
-T05   1.5
-T06   2.0
-T07   2.2
-T08   3.0
+T05   2.2
+T06   2.5
+T07   3.0
 
 ----------------------------
 LIBRARY	Q.
-adafruit	5   
 rcl	15  
+adafruit	4   
+open_hw_sockets	8   
+pinhead	1   
+SparkFun	6   
 microbuilder	5   
-con-lstb	1   
-SparkFun	2   
 special	1   
 transistor	1   
-open_hw_sockets	6   
 
 PACKAGE	Q.
-LED3MM	3   
 C050-024X044	3   
-STX3100	1   
+LED3MM	3   
 DO-1N4148	1   
-MA03-1	1   
+FIO_V23_SOCKET_BOT	1   
+ULTIMATE_GPS_V3_TOP	1   
+1X03/90	1   
+1X02	1   
+1X08	1   
+SJ_2S-NO	1   
+JUMPER2	1   
+1X06	1   
+SSD1306_128X64_1.3IN_LCD_TOP	1   
+SSD1306_128X64_0.96IN_MIN_LCD	1   
+OPENLOG	1   
 0207/10	12  
 EG1218	1   
 TACTILE-PTH	1   
 BUZZER-12MM	1   
 EDG-02	1   
 TO92-ECB	1   
-OPENLOG	1   
-FIO_V23_SOCKET_BOT	1   
-ULTIMATE_GPS_V3_TOP	1   
 A12AH	1   
-SSD1306_128X64_LCD_MIN	1   
+SAFECAST_LOGO2	1   
 MOUNTINGHOLE_3.0_PLATEDTHIN	4   
-SAFECAST_LOGO1	1   
 
 VALUE	PAC	Q.	Top	Bot
-RED	LED3MM	2	2	0
 0.1uF	C050-024X044	3	3	0
-~/-empty-/~CN1	STX3100	1	0	1
+RED	LED3MM	2	2	0
 BLUE	LED3MM	1	1	0
 ~/-empty-/~D1	DO-1N4148	1	1	0
-~/-empty-/~JP1	MA03-1	1	1	0
+FIO_SOCKETBOT	FIO_V23_SOCKET_BOT	1	0	1
+ULTIMATE_GPSTOP	ULTIMATE_GPS_V3_TOP	1	1	0
+~/-empty-/~JP1	1X03/90	1	0	1
+~/-empty-/~JP2	1X02	1	1	0
+~/-empty-/~JP4	1X08	1	1	0
+~/-empty-/~JP6	SJ_2S-NO	1	0	1
+~/-empty-/~JP7	JUMPER2	1	1	0
+~/-empty-/~JP8	1X06	1	1	0
+SSD1306_128X64_V2_LCD1.3IN_TOP	SSD1306_128X64_1.3IN_LCD_TOP	1	1	0
+SSD1306_128X64_V2_LCD0.96IN_MIN	SSD1306_128X64_0.96IN_MIN_LCD	1	1	0
+OPENLOG	OPENLOG	1	1	0
 9.1k	0207/10	1	1	0
 1k	0207/10	7	7	0
 47k	0207/10	2	2	0
@@ -366,13 +369,9 @@ BLUE	LED3MM	1	1	0
 BUZZER	BUZZER-12MM	1	1	0
 ~/-empty-/~SW1	EDG-02	1	1	0
 2SC1815	TO92-ECB	1	1	0
-OPENLOG	OPENLOG	1	1	0
-FIO_SOCKETBOT	FIO_V23_SOCKET_BOT	1	0	1
-GPS	ULTIMATE_GPS_V3_TOP	1	1	0
 A12JH	A12AH	1	1	0
-LCD	SSD1306_128X64_LCD_MIN	1	1	0
+~/-empty-/~U$5	SAFECAST_LOGO2	1	1	0
 MOUNTINGHOLE3.0THIN	MOUNTINGHOLE_3.0_PLATEDTHIN	4	4	0
-~/-empty-/~U$10	SAFECAST_LOGO1	1	1	0
 
 ----------------------------
 RECT x	RECT y	Q.
@@ -389,13 +388,17 @@ TEXT (w)	Q.
 0 TEXT wire width (copper)
 
 TEXT 	Q.
-1.2700 	49  
-0.8128 	9   
-2.5400 	3   
+1.6764 	1   
+5.0800 	3   
+2.5400 	6   
+1.2700 	50  
+1.9304 	1   
 1.7780 	2   
-1.0160 	10  
-5 TEXT size (place)
-5 TEXT wire width (place)
+0.4064 	1   
+0.8128 	9   
+1.0160 	9   
+9 TEXT size (place)
+8 TEXT wire width (place)
 
 CIRCLE diam.	Q.
 0 CIRCLE (copper)

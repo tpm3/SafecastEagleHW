@@ -19,16 +19,21 @@ GERBERS="${PROJECT}.gpi \
 	${PROJECT}.smb \
 	${PROJECT}.ssb \
 	${PROJECT}.drd \
+	${PROJECT}.drl \
 	${PROJECT}.dri"
 
 ASMFILES="${PROJECT}.bom \
 	${PROJECT}.asm \
 	${PROJECT}.spt \
+	${PROJECT}.spb \
 	${PROJECT}.hls"
 
 MISC="readme.txt \
 	${PROJECT}.rep \
 	${PROJECT}_cnt.txt"
+
+MODELS="${PROJECT}ModelBlue.skp \
+  ${PROJECT}ModelBlue.skp"
 
 OPTIONAL="${PROJECT}.gwk"
 
