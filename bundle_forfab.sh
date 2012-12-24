@@ -8,8 +8,7 @@ OUTDIR="tofab"
 # 
 PDFS="${PROJECT}.pdf \
 	${PROJECT}_brd.pdf \
-	${PROJECT}_gerbers_bw.pdf \
-	${PROJECT}_gerbers_color.pdf"
+	${PROJECT}_gerbers.pdf"
 
 GERBERS="${PROJECT}.gpi \
 	${PROJECT}.sst \
@@ -19,7 +18,6 @@ GERBERS="${PROJECT}.gpi \
 	${PROJECT}.smb \
 	${PROJECT}.ssb \
 	${PROJECT}.drd \
-	${PROJECT}.drl \
 	${PROJECT}.dri"
 
 ASMFILES="${PROJECT}.bom \
