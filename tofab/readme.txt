@@ -5,9 +5,9 @@ Quantity: 10
 Layers: 2
 Copper: 1oz. base copper weight
 Thickness: 0.062" FR4
-Solder mask: Yellow
+Solder mask: Blue
 Plating: Gold
-Silkscreen: Black
+Silkscreen: White
 
 Notes: 
 N/A
