@@ -21,10 +21,10 @@ GERBERS="${PROJECT}.gpi \
 	${PROJECT}.dri"
 
 ASMFILES="${PROJECT}.bom \
-	${PROJECT}.asm \
 	${PROJECT}.spt \
 	${PROJECT}.spb \
 	${PROJECT}.hls"
+#	${PROJECT}.asm \
 
 MISC="readme.txt \
 	${PROJECT}.rep \
