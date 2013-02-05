@@ -6340,127 +6340,6 @@ In this library the device names are the same as the pin names of the symbols, t
 </deviceset>
 </devicesets>
 </library>
-<library name="con-samtec">
-<description>&lt;b&gt;Samtec Connectors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SSW-102-02-S-D">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
-Source: Samtec SSW.pdf</description>
-<wire x1="-2.669" y1="2.425" x2="2.669" y2="2.425" width="0.2032" layer="21"/>
-<wire x1="2.669" y1="2.425" x2="2.669" y2="-2.425" width="0.2032" layer="21"/>
-<wire x1="2.669" y1="-2.425" x2="-2.669" y2="-2.425" width="0.2032" layer="21"/>
-<wire x1="-2.669" y1="-2.425" x2="-2.669" y2="2.425" width="0.2032" layer="21"/>
-<wire x1="-2.015" y1="-0.515" x2="-0.515" y2="-0.515" width="0.2032" layer="51"/>
-<wire x1="-0.515" y1="-0.515" x2="-0.515" y2="-2.015" width="0.2032" layer="51"/>
-<wire x1="-0.515" y1="-2.015" x2="-2.015" y2="-2.015" width="0.2032" layer="51"/>
-<wire x1="-2.015" y1="-2.015" x2="-2.015" y2="-0.515" width="0.2032" layer="51"/>
-<wire x1="-2.015" y1="2.025" x2="-0.515" y2="2.025" width="0.2032" layer="51"/>
-<wire x1="-0.515" y1="2.025" x2="-0.515" y2="0.525" width="0.2032" layer="51"/>
-<wire x1="-0.515" y1="0.525" x2="-2.015" y2="0.525" width="0.2032" layer="51"/>
-<wire x1="-2.015" y1="0.525" x2="-2.015" y2="2.025" width="0.2032" layer="51"/>
-<wire x1="0.525" y1="-0.515" x2="2.025" y2="-0.515" width="0.2032" layer="51"/>
-<wire x1="2.025" y1="-0.515" x2="2.025" y2="-2.015" width="0.2032" layer="51"/>
-<wire x1="2.025" y1="-2.015" x2="0.525" y2="-2.015" width="0.2032" layer="51"/>
-<wire x1="0.525" y1="-2.015" x2="0.525" y2="-0.515" width="0.2032" layer="51"/>
-<wire x1="0.525" y1="2.025" x2="2.025" y2="2.025" width="0.2032" layer="51"/>
-<wire x1="2.025" y1="2.025" x2="2.025" y2="0.525" width="0.2032" layer="51"/>
-<wire x1="2.025" y1="0.525" x2="0.525" y2="0.525" width="0.2032" layer="51"/>
-<wire x1="0.525" y1="0.525" x2="0.525" y2="2.025" width="0.2032" layer="51"/>
-<pad name="1" x="-1.27" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
-<pad name="2" x="-1.27" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
-<pad name="3" x="1.27" y="-1.27" drill="1" diameter="1.5" shape="octagon"/>
-<pad name="4" x="1.27" y="1.27" drill="1" diameter="1.5" shape="octagon"/>
-<text x="-1.778" y="-4.318" size="1.6764" layer="21" font="vector">1</text>
-<text x="-1.778" y="2.794" size="1.6764" layer="21" font="vector">2</text>
-<text x="-3.175" y="-2.54" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-2.54" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-</package>
-<package name="TSW-102-02-S-D-RA">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST HEADER&lt;/b&gt;&lt;p&gt;
-Source: Samtec TSW.pdf</description>
-<wire x1="-2.669" y1="-2.046" x2="2.669" y2="-2.046" width="0.2032" layer="21"/>
-<wire x1="2.669" y1="-2.046" x2="2.669" y2="-0.106" width="0.2032" layer="21"/>
-<wire x1="2.669" y1="-0.106" x2="-2.669" y2="-0.106" width="0.2032" layer="21"/>
-<wire x1="-2.669" y1="-0.106" x2="-2.669" y2="-2.046" width="0.2032" layer="21"/>
-<pad name="1" x="1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="2" x="1.27" y="4.064" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="3" x="-1.27" y="1.524" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<pad name="4" x="-1.27" y="4.064" drill="1" diameter="1.5" shape="octagon" rot="R180"/>
-<text x="-3.175" y="-7.62" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="4.445" y="-7.62" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="2.555" y="0.775" size="1.1" layer="21" font="vector" rot="SR0">1</text>
-<text x="2.52" y="3.29" size="1.1" layer="21" font="vector" rot="SR0">2</text>
-<rectangle x1="-1.524" y1="0" x2="-1.016" y2="4.318" layer="51"/>
-<rectangle x1="1.016" y1="0" x2="1.524" y2="4.318" layer="51"/>
-<rectangle x1="-1.524" y1="-7.89" x2="-1.016" y2="-2.04" layer="21"/>
-<rectangle x1="1.016" y1="-7.89" x2="1.524" y2="-2.04" layer="21"/>
-</package>
-</packages>
-<symbols>
-<symbol name="FPINV">
-<wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.508" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="-3.048" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-<symbol name="FPIN">
-<wire x1="-1.778" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
-<wire x1="0" y1="-0.508" x2="-1.778" y2="-0.508" width="0.254" layer="94"/>
-<text x="-3.048" y="0.762" size="1.524" layer="95" rot="R180">&gt;NAME</text>
-<pin name="1" x="2.54" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SSW-102-02-S-D" prefix="X">
-<description>&lt;b&gt;THROUGH-HOLE .025" SQ POST SOCKET&lt;/b&gt;&lt;p&gt;
-Source: Samtec SSW.pdf</description>
-<gates>
-<gate name="-1" symbol="FPINV" x="-10.16" y="0" addlevel="always"/>
-<gate name="-2" symbol="FPIN" x="10.16" y="0" addlevel="always"/>
-<gate name="-3" symbol="FPIN" x="-10.16" y="-2.54" addlevel="always"/>
-<gate name="-4" symbol="FPIN" x="10.16" y="-2.54" addlevel="always"/>
-</gates>
-<devices>
-<device name="" package="SSW-102-02-S-D">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-<connect gate="-3" pin="1" pad="3"/>
-<connect gate="-4" pin="1" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-102-02-S-D" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9349" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-RA" package="TSW-102-02-S-D-RA">
-<connects>
-<connect gate="-1" pin="1" pad="1"/>
-<connect gate="-2" pin="1" pad="2"/>
-<connect gate="-3" pin="1" pad="3"/>
-<connect gate="-4" pin="1" pad="4"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="SSW-102-02-S-D-RA" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="11P9350" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="jumper">
 <description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
 &lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
@@ -6488,6 +6367,35 @@ Source: Samtec SSW.pdf</description>
 <rectangle x1="-0.3048" y1="0.9652" x2="0.3048" y2="1.5748" layer="51"/>
 <rectangle x1="-0.3048" y1="-1.5748" x2="0.3048" y2="-0.9652" layer="51"/>
 </package>
+<package name="JP2Q">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<wire x1="-2.54" y1="-2.159" x2="-2.54" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="-0.381" y1="2.54" x2="0" y2="2.159" width="0.1524" layer="21"/>
+<wire x1="0" y1="2.159" x2="0.381" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="0.381" y1="2.54" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.159" x2="2.159" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.159" x2="2.54" y2="-2.159" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-2.159" x2="2.159" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.159" y1="-2.54" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.159" x2="0.381" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="0" y1="-2.159" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="2.159" x2="-2.159" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="2.54" x2="-0.381" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-2.159" x2="-2.159" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.159" y1="-2.54" x2="-0.381" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="1" x="-1.27" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="2" x="1.27" y="-1.27" drill="0.9144" shape="octagon"/>
+<pad name="3" x="-1.27" y="1.27" drill="0.9144" shape="octagon"/>
+<pad name="4" x="1.27" y="1.27" drill="0.9144" shape="octagon"/>
+<text x="-1.778" y="-4.191" size="1.27" layer="21" ratio="10">1</text>
+<text x="0.762" y="-4.191" size="1.27" layer="21" ratio="10">2</text>
+<text x="-2.54" y="3.048" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="4.445" y="-2.54" size="1.27" layer="27" ratio="10" rot="R90">&gt;VALUE</text>
+<rectangle x1="-1.5748" y1="0.9652" x2="-0.9652" y2="1.5748" layer="51"/>
+<rectangle x1="0.9652" y1="0.9652" x2="1.5748" y2="1.5748" layer="51"/>
+<rectangle x1="0.9652" y1="-1.5748" x2="1.5748" y2="-0.9652" layer="51"/>
+<rectangle x1="-1.5748" y1="-1.5748" x2="-0.9652" y2="-0.9652" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="J1">
@@ -6504,6 +6412,20 @@ Source: Samtec SSW.pdf</description>
 <pin name="1" x="0" y="-7.62" visible="pad" length="short" direction="pas" rot="R90"/>
 <pin name="2" x="0" y="7.62" visible="pad" length="short" direction="pas" rot="R270"/>
 </symbol>
+<symbol name="JP2E">
+<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
+<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
+<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="JP1Q" prefix="JP" uservalue="yes">
@@ -6516,6 +6438,26 @@ Source: Samtec SSW.pdf</description>
 <connects>
 <connect gate="A" pin="1" pad="1"/>
 <connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="JP2QE" prefix="JP" uservalue="yes">
+<description>&lt;b&gt;JUMPER&lt;/b&gt;</description>
+<gates>
+<gate name="-1" symbol="JP2E" x="2.54" y="0" addlevel="always"/>
+<gate name="-2" symbol="JP2E" x="12.7" y="0" addlevel="always"/>
+</gates>
+<devices>
+<device name="" package="JP2Q">
+<connects>
+<connect gate="-1" pin="1" pad="1"/>
+<connect gate="-1" pin="2" pad="2"/>
+<connect gate="-2" pin="1" pad="3"/>
+<connect gate="-2" pin="2" pad="4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -6606,6 +6548,191 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 </deviceset>
 </devicesets>
 </library>
+<library name="open_hw_sockets">
+<packages>
+<package name="E2V_MICS">
+<description>&lt;b&gt;TO 72&lt;/b&gt;</description>
+<wire x1="-0.9289" y1="2.227" x2="0.9289" y2="2.227" width="0.0508" layer="51" curve="-45.282836"/>
+<wire x1="-0.9289" y1="-2.227" x2="0.9289" y2="-2.227" width="0.0508" layer="51" curve="45.282836"/>
+<wire x1="-2.227" y1="0.9289" x2="-2.227" y2="-0.9289" width="0.0508" layer="51" curve="45.282836"/>
+<wire x1="-2.227" y1="-0.9289" x2="-0.9289" y2="-2.227" width="0.0508" layer="21" curve="44.717164"/>
+<wire x1="-2.227" y1="0.9289" x2="-0.9289" y2="2.227" width="0.0508" layer="21" curve="-44.717164"/>
+<wire x1="2.227" y1="-0.9289" x2="2.227" y2="0.9289" width="0.0508" layer="51" curve="45.282836"/>
+<wire x1="0.9289" y1="-2.227" x2="2.227" y2="-0.9289" width="0.0508" layer="21" curve="44.717164"/>
+<wire x1="0.9289" y1="2.227" x2="2.227" y2="0.9289" width="0.0508" layer="21" curve="-44.717164"/>
+<wire x1="3.52263125" y1="-2.804209375" x2="4.2590125" y2="-3.540590625" width="0.127" layer="21"/>
+<wire x1="4.2590125" y1="-3.540590625" x2="3.540590625" y2="-4.2590125" width="0.127" layer="21"/>
+<wire x1="3.540590625" y1="-4.2590125" x2="2.804209375" y2="-3.52263125" width="0.127" layer="21"/>
+<circle x="0" y="0" radius="5" width="0.127" layer="21"/>
+<pad name="1" x="0" y="-2.54" drill="0.8128" shape="octagon"/>
+<pad name="3" x="0" y="2.54" drill="0.8128" shape="octagon" rot="R45"/>
+<pad name="2" x="2.54" y="0" drill="0.8128" shape="octagon"/>
+<pad name="4" x="-2.54" y="0" drill="0.8128" shape="octagon"/>
+<text x="5.715" y="1.27" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="5.715" y="-0.635" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-0.381" y="-1.651" size="1.27" layer="51" ratio="10">1</text>
+<text x="0.8255" y="-0.6985" size="1.27" layer="51" ratio="10">2</text>
+<text x="-0.4445" y="0.381" size="1.27" layer="51" ratio="10">3</text>
+<text x="-1.651" y="-0.5715" size="1.27" layer="51" ratio="10">4</text>
+<circle x="0" y="0" radius="4.5" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="E2V_MICS">
+<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="-5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="SENS2" x="10.16" y="-2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+<pin name="PWR" x="-10.16" y="5.08" visible="pin" length="short" direction="pwr"/>
+<pin name="SENS1" x="10.16" y="2.54" visible="pin" length="short" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="E2V_MICS">
+<gates>
+<gate name="G$1" symbol="E2V_MICS" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="E2V_MICS">
+<connects>
+<connect gate="G$1" pin="GND" pad="1"/>
+<connect gate="G$1" pin="PWR" pad="3"/>
+<connect gate="G$1" pin="SENS1" pad="4"/>
+<connect gate="G$1" pin="SENS2" pad="2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
+<library name="microbuilder">
+<description>&lt;h2&gt;&lt;b&gt;microBuilder.eu&lt;/b&gt; Eagle Footprint Library&lt;/h2&gt;
+
+&lt;p&gt;Footprints for common components used in our projects and products.  This is the same library that we use internally, and it is regularly updated.  The newest version can always be found at &lt;b&gt;www.microBuilder.eu&lt;/b&gt;.  If you find this library useful, please feel free to purchase something from our online store. Please also note that all holes are optimised for metric drill bits!&lt;/p&gt;
+
+&lt;h3&gt;Obligatory Warning&lt;/h3&gt;
+&lt;p&gt;While it probably goes without saying, there are no guarantees that the footprints or schematic symbols in this library are flawless, and we make no promises of fitness for production, prototyping or any other purpose. These libraries are provided for information puposes only, and are used at your own discretion.  While we make every effort to produce accurate footprints, and many of the items found in this library have be proven in production, we can't make any promises of suitability for a specific purpose. If you do find any errors, though, please feel free to contact us at www.microbuilder.eu to let us know about it so that we can update the library accordingly!&lt;/p&gt;
+
+&lt;h3&gt;License&lt;/h3&gt;
+&lt;p&gt;This work is placed in the public domain, and may be freely used for commercial and non-commercial work with the following conditions:&lt;/p&gt;
+&lt;p&gt;THIS SOFTWARE IS PROVIDED ''AS IS'' AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE INSTITUTE OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING,  BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+&lt;/p&gt;</description>
+<packages>
+<package name="MOUNTINGHOLE_3.0_PLATED">
+<wire x1="-2.159" y1="0" x2="0" y2="-2.159" width="2.4892" layer="51" curve="90" cap="flat"/>
+<wire x1="0" y1="2.159" x2="2.159" y2="0" width="2.4892" layer="51" curve="-90" cap="flat"/>
+<circle x="0" y="0" radius="3.429" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="0.762" width="0.4572" layer="51"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="3.048" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="3" diameter="6.4516"/>
+<text x="-1.27" y="-3.81" size="1.27" layer="48">3,0</text>
+</package>
+<package name="MOUNTINGHOLE_1.0_PLATED">
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="1" diameter="3"/>
+<text x="-0.87" y="-2.74" size="0.8128" layer="48">1,0</text>
+</package>
+<package name="MOUNTINGHOLE_2.0_PLATED">
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.2" diameter="3"/>
+<text x="-0.87" y="-2.74" size="0.8128" layer="48">2,0</text>
+</package>
+<package name="MOUNTINGHOLE_3.0_PLATEDTHIN">
+<circle x="0" y="0" radius="2.032" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="43"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="3" diameter="3.6"/>
+<text x="-0.87" y="-2.74" size="0.8128" layer="48">3,0</text>
+</package>
+<package name="MOUNTINGHOLE_2.5_PLATED">
+<circle x="0" y="0" radius="1.75" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.5" diameter="3.2"/>
+</package>
+<package name="MOUNTINGHOLE_2.5_PLATED_THICK">
+<circle x="0" y="0" radius="2.25" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="39"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="40"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="41"/>
+<circle x="0" y="0" radius="1.25" width="2.032" layer="42"/>
+<pad name="P$1" x="0" y="0" drill="2.5" diameter="4"/>
+</package>
+</packages>
+<symbols>
+<symbol name="MOUNTINGHOLE">
+<circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
+<circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="MOUNTINGHOLE">
+<description>&lt;b&gt;Mounting Hole&lt;/b&gt;
+&lt;p&gt;For #2 screws (0.086"/2.18mm width, 0.094"/2.4mm hole) use 2.5mm&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="MOUNTINGHOLE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MOUNTINGHOLE_3.0_PLATED">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.0" package="MOUNTINGHOLE_1.0_PLATED">
+<technologies>
+<technology name="">
+<attribute name="BOM" value="EXCLUDE" constant="no"/>
+</technology>
+</technologies>
+</device>
+<device name="2.0" package="MOUNTINGHOLE_2.0_PLATED">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3.0THIN" package="MOUNTINGHOLE_3.0_PLATEDTHIN">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.5" package="MOUNTINGHOLE_2.5_PLATED">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2.5_THICK" package="MOUNTINGHOLE_2.5_PLATED_THICK">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -6629,7 +6756,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
-<part name="X1" library="con-samtec" deviceset="SSW-102-02-S-D" device=""/>
 <part name="R1" library="rcl" deviceset="R-US_" device="0207/10"/>
 <part name="R2" library="rcl" deviceset="R-US_" device="0207/10"/>
 <part name="R3" library="rcl" deviceset="R-US_" device="0207/10"/>
@@ -6646,8 +6772,13 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <part name="SUPPLY10" library="supply2" deviceset="GND" device=""/>
 <part name="R6" library="rcl" deviceset="R-US_" device="0207/10"/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
-<part name="JP2" library="jumper" deviceset="JP1Q" device=""/>
 <part name="SUPPLY12" library="supply2" deviceset="GND" device=""/>
+<part name="U$1" library="open_hw_sockets" deviceset="E2V_MICS" device=""/>
+<part name="JP4" library="jumper" deviceset="JP2QE" device=""/>
+<part name="U$2" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
+<part name="U$3" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
+<part name="U$4" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
+<part name="U$5" library="microbuilder" deviceset="MOUNTINGHOLE" device="2.5"/>
 </parts>
 <sheets>
 <sheet>
@@ -6668,19 +6799,12 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <instance part="SUPPLY1" gate="GND" x="236.22" y="111.76"/>
 <instance part="SUPPLY2" gate="GND" x="93.98" y="101.6"/>
 <instance part="SUPPLY3" gate="GND" x="236.22" y="91.44"/>
-<instance part="X1" gate="-1" x="116.84" y="147.32" smashed="yes" rot="R180">
-<attribute name="VALUE" x="119.38" y="142.24" size="1.778" layer="96"/>
-<attribute name="NAME" x="119.888" y="146.558" size="1.524" layer="95"/>
-</instance>
-<instance part="X1" gate="-2" x="134.62" y="147.32"/>
-<instance part="X1" gate="-3" x="116.84" y="152.4" rot="R180"/>
-<instance part="X1" gate="-4" x="134.62" y="152.4"/>
 <instance part="R1" gate="G$1" x="147.32" y="129.54" rot="R90"/>
 <instance part="R2" gate="G$1" x="147.32" y="114.3" rot="R90"/>
 <instance part="R3" gate="G$1" x="165.1" y="109.22" rot="R90"/>
 <instance part="R4" gate="G$1" x="114.3" y="99.06" rot="R90"/>
 <instance part="R5" gate="G$1" x="114.3" y="83.82" rot="R90"/>
-<instance part="JP1" gate="A" x="55.88" y="121.92" rot="R270"/>
+<instance part="JP1" gate="A" x="33.02" y="121.92" rot="R270"/>
 <instance part="SUPPLY4" gate="GND" x="114.3" y="71.12"/>
 <instance part="SUPPLY5" gate="GND" x="43.18" y="106.68"/>
 <instance part="SUPPLY6" gate="GND" x="106.68" y="104.14"/>
@@ -6691,8 +6815,20 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <instance part="SUPPLY10" gate="GND" x="205.74" y="134.62"/>
 <instance part="R6" gate="G$1" x="134.62" y="78.74" rot="R90"/>
 <instance part="SUPPLY11" gate="GND" x="134.62" y="71.12"/>
-<instance part="JP2" gate="A" x="137.16" y="162.56" rot="R270"/>
 <instance part="SUPPLY12" gate="GND" x="101.6" y="104.14"/>
+<instance part="U$1" gate="G$1" x="129.54" y="149.86"/>
+<instance part="JP4" gate="-1" x="114.3" y="157.48" smashed="yes" rot="MR0">
+<attribute name="NAME" x="115.57" y="157.48" size="1.778" layer="95" rot="MR90" display="off"/>
+<attribute name="VALUE" x="108.585" y="157.48" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="JP4" gate="-2" x="114.3" y="165.1" smashed="yes" rot="MR0">
+<attribute name="NAME" x="115.57" y="165.1" size="1.778" layer="95" rot="MR90" display="off"/>
+<attribute name="VALUE" x="108.585" y="165.1" size="1.778" layer="96" rot="MR90"/>
+</instance>
+<instance part="U$2" gate="G$1" x="195.58" y="43.18"/>
+<instance part="U$3" gate="G$1" x="210.82" y="43.18"/>
+<instance part="U$4" gate="G$1" x="226.06" y="43.18"/>
+<instance part="U$5" gate="G$1" x="241.3" y="43.18"/>
 </instances>
 <busses>
 </busses>
@@ -6742,13 +6878,15 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <label x="226.06" y="99.06" size="1.778" layer="95"/>
 </segment>
 <segment>
+<pinref part="IC2" gate="G$1" pin="+VS"/>
+<wire x1="170.18" y1="160.02" x2="170.18" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="162.56" x2="180.34" y2="162.56" width="0.1524" layer="91"/>
+<label x="172.72" y="162.56" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="JP1" gate="A" pin="1"/>
-<wire x1="48.26" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
-<label x="35.56" y="121.92" size="1.778" layer="95"/>
-<pinref part="C1" gate="G$1" pin="1"/>
-<wire x1="43.18" y1="121.92" x2="33.02" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="119.38" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
-<junction x="43.18" y="121.92"/>
+<wire x1="25.4" y1="121.92" x2="15.24" y2="121.92" width="0.1524" layer="91"/>
+<label x="17.78" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RANGE" class="0">
@@ -6765,27 +6903,25 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <wire x1="177.8" y1="104.14" x2="241.3" y2="104.14" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="S0" class="0">
+<net name="S2" class="0">
 <segment>
-<label x="139.7" y="147.32" size="1.778" layer="95"/>
-<pinref part="X1" gate="-2" pin="1"/>
-<wire x1="137.16" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="147.32" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="147.32" x2="165.1" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="134.62" x2="147.32" y2="147.32" width="0.1524" layer="91"/>
 <junction x="147.32" y="147.32"/>
 <pinref part="IC2" gate="G$1" pin="IN-"/>
+<pinref part="U$1" gate="G$1" pin="SENS2"/>
 </segment>
 </net>
 <net name="HPWR" class="0">
 <segment>
-<wire x1="114.3" y1="152.4" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
 <label x="93.98" y="121.92" size="1.778" layer="95"/>
-<pinref part="X1" gate="-3" pin="1"/>
 <pinref part="IC1" gate="G$1" pin="OUT"/>
 <wire x1="91.44" y1="121.92" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="121.92" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="121.92" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC1" gate="G$1" pin="SENSE"/>
+<wire x1="106.68" y1="154.94" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="119.38" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="119.38" x2="106.68" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="119.38" x2="106.68" y2="121.92" width="0.1524" layer="91"/>
@@ -6793,23 +6929,23 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <wire x1="106.68" y1="119.38" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 <junction x="106.68" y="119.38"/>
 <junction x="106.68" y="121.92"/>
-<pinref part="JP2" gate="A" pin="1"/>
-<wire x1="129.54" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="162.56" x2="106.68" y2="152.4" width="0.1524" layer="91"/>
-<junction x="106.68" y="152.4"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <wire x1="101.6" y1="116.84" x2="101.6" y2="119.38" width="0.1524" layer="91"/>
 <junction x="101.6" y="119.38"/>
+<pinref part="JP4" gate="-1" pin="2"/>
+<wire x1="111.76" y1="154.94" x2="106.68" y2="154.94" width="0.1524" layer="91"/>
+<junction x="106.68" y="154.94"/>
+<pinref part="JP4" gate="-2" pin="2"/>
+<wire x1="111.76" y1="162.56" x2="106.68" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S1" class="0">
 <segment>
-<wire x1="137.16" y1="152.4" x2="147.32" y2="152.4" width="0.1524" layer="91"/>
-<label x="139.7" y="152.4" size="1.778" layer="95"/>
-<pinref part="X1" gate="-4" pin="1"/>
-<wire x1="147.32" y1="152.4" x2="147.32" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="JP2" gate="A" pin="2"/>
-<wire x1="147.32" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="152.4" x2="144.78" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="152.4" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="SENS1"/>
+<pinref part="JP4" gate="-2" pin="1"/>
+<wire x1="114.3" y1="162.56" x2="144.78" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -6883,13 +7019,6 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <wire x1="101.6" y1="106.68" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="VIN" class="0">
-<segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<pinref part="JP1" gate="A" pin="2"/>
-<wire x1="66.04" y1="121.92" x2="63.5" y2="121.92" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="VOTAB"/>
@@ -6910,9 +7039,10 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="X1" gate="-1" pin="1"/>
-<wire x1="114.3" y1="147.32" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="144.78" x2="114.3" y2="104.14" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="119.38" y1="144.78" x2="114.3" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -6938,6 +7068,24 @@ Source: http://www.analog.com/static/imported-files/data_sheets/AD820.pdf</descr
 <junction x="134.62" y="86.36"/>
 <wire x1="177.8" y1="86.36" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="101.6" x2="241.3" y2="101.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="JP4" gate="-1" pin="1"/>
+<pinref part="U$1" gate="G$1" pin="PWR"/>
+<wire x1="114.3" y1="154.94" x2="119.38" y2="154.94" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="IC1" gate="G$1" pin="IN"/>
+<pinref part="JP1" gate="A" pin="2"/>
+<wire x1="66.04" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="C1" gate="G$1" pin="1"/>
+<wire x1="43.18" y1="121.92" x2="40.64" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="119.38" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
+<junction x="43.18" y="121.92"/>
 </segment>
 </net>
 </nets>
