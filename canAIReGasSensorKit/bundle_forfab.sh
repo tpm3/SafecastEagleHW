@@ -11,15 +11,17 @@ PDFS="${PROJECT}.pdf \
 	${PROJECT}_gerbers_bw.pdf \
 	${PROJECT}_gerbers_color.pdf"
 
+# ${PROJECT}.ssb
 GERBERS="${PROJECT}.gpi \
 	${PROJECT}.sst \
 	${PROJECT}.smt \
 	${PROJECT}.top \
 	${PROJECT}.bot \
 	${PROJECT}.smb \
-	${PROJECT}.ssb \
+	${PROJECT}.spb \
 	${PROJECT}.drd \
 	${PROJECT}.dri"
+
 
 ASMFILES="${PROJECT}.bom \
 	${PROJECT}.asm \

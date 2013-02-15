@@ -1,7 +1,7 @@
 Safecast
 P/N canAIReSensorModule
 
-Quantity: 20
+Quantity: 50
 Layers: 2
 Copper: 1oz. base copper weight
 Thickness: 0.062" FR4
