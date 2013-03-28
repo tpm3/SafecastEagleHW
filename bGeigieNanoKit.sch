@@ -3612,21 +3612,6 @@ Source: http://www.osram.convergy.de/</description>
 <circle x="0" y="0" radius="1.25" width="2.032" layer="42"/>
 <pad name="P$1" x="0" y="0" drill="2.5" diameter="4"/>
 </package>
-<package name="JUMPER2">
-<description>&lt;b&gt;JUMPER&lt;/b&gt; - 2 Pins</description>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.2032" layer="21"/>
-<pad name="1" x="2.54" y="0" drill="1" diameter="1.9304" shape="octagon" rot="R90"/>
-<pad name="2" x="0" y="0" drill="1" diameter="1.9304" shape="octagon" rot="R90"/>
-<text x="4.191" y="0.254" size="0.8128" layer="25" ratio="18">&gt;NAME</text>
-<text x="4.191" y="-0.635" size="0.4064" layer="27" ratio="10">&gt;VALUE</text>
-<text x="-0.254" y="-2.286" size="0.8128" layer="25">2</text>
-<text x="2.286" y="-2.286" size="0.8128" layer="25">1</text>
-<rectangle x1="-0.3048" y1="-0.3048" x2="0.3048" y2="0.3048" layer="51" rot="R90"/>
-<rectangle x1="2.2352" y1="-0.3048" x2="2.8448" y2="0.3048" layer="51" rot="R90"/>
-</package>
 <package name="1X04_OVAL">
 <description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
 <wire x1="-5.08" y1="0.635" x2="-5.08" y2="-0.635" width="0.2032" layer="51"/>
@@ -3693,20 +3678,6 @@ Source: http://www.osram.convergy.de/</description>
 <circle x="0" y="0" radius="2.54" width="0.254" layer="94"/>
 <circle x="0" y="0" radius="1.905" width="0.254" layer="94"/>
 </symbol>
-<symbol name="JUMPER2">
-<wire x1="0" y1="0" x2="0" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="0" y1="2.54" x2="0" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="1.27" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.27" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0" x2="3.175" y2="0" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0" x2="3.175" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="3.175" y1="0.635" x2="-0.635" y2="0.635" width="0.4064" layer="94"/>
-<wire x1="-0.635" y1="0.635" x2="-0.635" y2="0" width="0.4064" layer="94"/>
-<text x="-1.27" y="0" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<text x="5.715" y="0" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
-<pin name="1" x="0" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-<pin name="2" x="2.54" y="-2.54" visible="pad" length="short" direction="pas" rot="R90"/>
-</symbol>
 <symbol name="PINHD4">
 <wire x1="-6.35" y1="-5.08" x2="1.27" y2="-5.08" width="0.4064" layer="94"/>
 <wire x1="1.27" y1="-5.08" x2="1.27" y2="7.62" width="0.4064" layer="94"/>
@@ -3756,23 +3727,6 @@ Source: http://www.osram.convergy.de/</description>
 </technologies>
 </device>
 <device name="2.5_THICK" package="MOUNTINGHOLE_2.5_PLATED_THICK">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="JUMPER2" prefix="JP" uservalue="yes">
-<description>&lt;b&gt;JUMPER&lt;/b&gt; - 2 Pins</description>
-<gates>
-<gate name="A" symbol="JUMPER2" x="2.54" y="0"/>
-</gates>
-<devices>
-<device name="" package="JUMPER2">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -11937,9 +11891,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="SUPPLY1" library="supply2" deviceset="GND" device=""/>
 <part name="SUPPLY3" library="supply2" deviceset="GND" device=""/>
 <part name="D1" library="adafruit" deviceset="DIODE" device="DO-1N4148"/>
-<part name="C1" library="rcl" deviceset="C-EU" device="050-024X044" value="0.1uF"/>
-<part name="C2" library="rcl" deviceset="C-EU" device="050-024X044" value="0.1uF"/>
-<part name="C3" library="rcl" deviceset="C-EU" device="050-024X044" value="0.1uF"/>
+<part name="C1" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1uF"/>
+<part name="C2" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1uF"/>
+<part name="C3" library="rcl" deviceset="C-EU" device="025-024X044" value="0.1uF"/>
 <part name="SUPPLY4" library="supply2" deviceset="GND" device=""/>
 <part name="T1" library="transistor" deviceset="2SC1815" device=""/>
 <part name="SUPPLY11" library="supply2" deviceset="GND" device=""/>
@@ -11953,17 +11907,12 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="U$7" library="microbuilder" deviceset="MOUNTINGHOLE" device="3.0THIN"/>
 <part name="U$8" library="microbuilder" deviceset="MOUNTINGHOLE" device="3.0THIN"/>
 <part name="U$9" library="microbuilder" deviceset="MOUNTINGHOLE" device="3.0THIN"/>
-<part name="R11" library="rcl" deviceset="R-US_" device="0207/10" value="1k"/>
-<part name="CHARGE" library="adafruit" deviceset="LED" device="3MM" value="RED"/>
-<part name="SUPPLY16" library="supply2" deviceset="GND" device=""/>
 <part name="R12" library="rcl" deviceset="R-US_" device="0207/10" value="1k"/>
 <part name="U$4" library="open_hw_sockets" deviceset="A12JH" device=""/>
 <part name="FRAME2" library="frames" deviceset="A4L-LOC" device=""/>
 <part name="LCD" library="open_hw_sockets" deviceset="SSD1306_128X64_V2_LCD" device="1.3IN_LEVER" value="SSD1306_128X64_V2_LCD1.3IN_LEVER"/>
 <part name="JP4" library="SparkFun" deviceset="M08" device="1X08"/>
 <part name="JP6" library="SparkFun" deviceset="JUMPER-2" device="SMD-NO"/>
-<part name="JP7" library="microbuilder" deviceset="JUMPER2" device=""/>
-<part name="LCD2" library="open_hw_sockets" deviceset="SSD1306_128X64_V2_LCD" device="0.96IN_MNT_NOOUT" value="SSD1306_128X64_V2_LCD0.96IN_MNT_NOOUT"/>
 <part name="JP8" library="SparkFun" deviceset="M06" device="SIP"/>
 <part name="JP2" library="microbuilder" deviceset="HEADER-1X4" device="ROUND"/>
 </parts>
@@ -12020,9 +11969,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="U$7" gate="G$1" x="220.98" y="30.48"/>
 <instance part="U$8" gate="G$1" x="233.68" y="30.48"/>
 <instance part="U$9" gate="G$1" x="248.92" y="30.48"/>
-<instance part="R11" gate="G$1" x="114.3" y="48.26" rot="R180"/>
-<instance part="CHARGE" gate="G$1" x="101.6" y="48.26" rot="R90"/>
-<instance part="SUPPLY16" gate="GND" x="119.38" y="43.18"/>
 <instance part="R12" gate="G$1" x="53.34" y="88.9" rot="R90"/>
 <instance part="U$4" gate="G$1" x="165.1" y="137.16"/>
 <instance part="FRAME2" gate="G$1" x="0" y="0"/>
@@ -12031,8 +11977,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </instance>
 <instance part="JP4" gate="G$1" x="139.7" y="111.76" rot="MR0"/>
 <instance part="JP6" gate="A" x="40.64" y="116.84" rot="R270"/>
-<instance part="JP7" gate="A" x="129.54" y="48.26" rot="R270"/>
-<instance part="LCD2" gate="G$1" x="38.1" y="149.86" rot="MR180"/>
 <instance part="JP8" gate="G$1" x="127" y="93.98" rot="MR0"/>
 <instance part="JP2" gate="A" x="236.22" y="68.58"/>
 </instances>
@@ -12041,12 +11985,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <nets>
 <net name="GND" class="1">
 <segment>
-<wire x1="27.94" y1="157.48" x2="45.72" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="SUPPLY5" gate="GND" pin="GND"/>
 <pinref part="LCD" gate="G$1" pin="GND"/>
-<pinref part="LCD2" gate="G$1" pin="GND"/>
-<wire x1="45.72" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
-<junction x="45.72" y="157.48"/>
+<wire x1="27.94" y1="157.48" x2="63.5" y2="157.48" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="FIO" gate="U$1" pin="GND@1"/>
@@ -12145,11 +12086,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="U$4" gate="G$1" pin="P$1"/>
 <wire x1="170.18" y1="139.7" x2="167.64" y2="139.7" width="0.1524" layer="91"/>
 </segment>
-<segment>
-<pinref part="SUPPLY16" gate="GND" pin="GND"/>
-<wire x1="127" y1="45.72" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="A" pin="2"/>
-</segment>
 </net>
 <net name="VCC" class="1">
 <segment>
@@ -12166,12 +12102,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <label x="30.48" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<wire x1="27.94" y1="154.94" x2="45.72" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
 <label x="50.8" y="154.94" size="1.778" layer="95"/>
 <pinref part="LCD" gate="G$1" pin="VIN"/>
-<pinref part="LCD2" gate="G$1" pin="VIN"/>
-<wire x1="45.72" y1="154.94" x2="58.42" y2="154.94" width="0.1524" layer="91"/>
-<junction x="45.72" y="154.94"/>
 </segment>
 <segment>
 <wire x1="30.48" y1="78.74" x2="43.18" y2="78.74" width="0.1524" layer="91"/>
@@ -12257,10 +12190,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <net name="VIN" class="0">
 <segment>
 <pinref part="FIO" gate="U$1" pin="VIN"/>
-<label x="96.52" y="50.8" size="1.778" layer="95" rot="R90"/>
-<wire x1="96.52" y1="68.58" x2="96.52" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="CHARGE" gate="G$1" pin="A"/>
-<wire x1="96.52" y1="48.26" x2="99.06" y2="48.26" width="0.1524" layer="91"/>
+<label x="99.06" y="53.34" size="1.778" layer="95"/>
+<wire x1="96.52" y1="68.58" x2="96.52" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="53.34" x2="106.68" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VBATT" class="0">
@@ -12438,10 +12370,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="83.82" y1="111.76" x2="50.8" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="50.8" y1="111.76" x2="50.8" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="DATA"/>
-<wire x1="50.8" y1="139.7" x2="45.72" y2="139.7" width="0.1524" layer="91"/>
-<pinref part="LCD2" gate="G$1" pin="DATA"/>
-<wire x1="45.72" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
-<junction x="45.72" y="139.7"/>
+<wire x1="50.8" y1="139.7" x2="27.94" y2="139.7" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -12450,10 +12379,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="83.82" y1="114.3" x2="53.34" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="53.34" y1="114.3" x2="53.34" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="CLK"/>
-<wire x1="53.34" y1="142.24" x2="45.72" y2="142.24" width="0.1524" layer="91"/>
-<pinref part="LCD2" gate="G$1" pin="CLK"/>
-<wire x1="45.72" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
-<junction x="45.72" y="142.24"/>
+<wire x1="53.34" y1="142.24" x2="27.94" y2="142.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -12462,10 +12388,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="83.82" y1="116.84" x2="55.88" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="55.88" y1="116.84" x2="55.88" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="DC"/>
-<wire x1="55.88" y1="144.78" x2="45.72" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="LCD2" gate="G$1" pin="DC"/>
-<wire x1="45.72" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
-<junction x="45.72" y="144.78"/>
+<wire x1="55.88" y1="144.78" x2="27.94" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
@@ -12474,10 +12397,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="83.82" y1="119.38" x2="58.42" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="119.38" x2="58.42" y2="149.86" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="CS"/>
-<wire x1="58.42" y1="149.86" x2="45.72" y2="149.86" width="0.1524" layer="91"/>
-<pinref part="LCD2" gate="G$1" pin="CS"/>
-<wire x1="45.72" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
-<junction x="45.72" y="149.86"/>
+<wire x1="58.42" y1="149.86" x2="27.94" y2="149.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -12486,10 +12406,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="83.82" y1="121.92" x2="60.96" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="60.96" y1="121.92" x2="60.96" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="LCD" gate="G$1" pin="RST"/>
-<wire x1="60.96" y1="147.32" x2="45.72" y2="147.32" width="0.1524" layer="91"/>
-<pinref part="LCD2" gate="G$1" pin="RST"/>
-<wire x1="45.72" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
-<junction x="45.72" y="147.32"/>
+<wire x1="60.96" y1="147.32" x2="27.94" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
@@ -12506,20 +12423,6 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <pinref part="FIO" gate="U$1" pin="A6"/>
 <pinref part="JP4" gate="G$1" pin="7"/>
 <wire x1="134.62" y1="119.38" x2="114.3" y2="119.38" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$29" class="0">
-<segment>
-<pinref part="R11" gate="G$1" pin="1"/>
-<wire x1="119.38" y1="48.26" x2="127" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="JP7" gate="A" pin="1"/>
-</segment>
-</net>
-<net name="N$31" class="0">
-<segment>
-<pinref part="CHARGE" gate="G$1" pin="C"/>
-<pinref part="R11" gate="G$1" pin="2"/>
-<wire x1="109.22" y1="48.26" x2="106.68" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$32" class="0">
