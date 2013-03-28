@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -77,14 +77,14 @@
 <layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
 <layer number="121" name="sName" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="122" name="_bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -98,8 +98,8 @@
 <layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
 <layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
 <layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
@@ -7841,6 +7841,237 @@
 <pad name="P1" x="-5.08" y="0" drill="0.9" diameter="1.6764"/>
 <pad name="P2" x="5.08" y="0" drill="0.9" diameter="1.6764"/>
 </package>
+<package name="SSD1306_128X64_0.96IN_LCD_LEVER">
+<wire x1="0" y1="3.999990625" x2="0" y2="25" width="0.080009375" layer="21"/>
+<wire x1="3.999990625" y1="28.49999375" x2="0" y2="25" width="0.080009375" layer="21" curve="89.999384"/>
+<wire x1="3.999990625" y1="28.49999375" x2="34.000009375" y2="28.49999375" width="0.080009375" layer="21"/>
+<wire x1="38" y1="24.500003125" x2="34.000009375" y2="28.49999375" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="38" y1="24.500003125" x2="38" y2="3.999990625" width="0.080009375" layer="21"/>
+<wire x1="34.000009375" y1="0" x2="38" y2="3.999990625" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="0" y1="3.999990625" x2="3.999990625" y2="0" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="34.000009375" y1="0" x2="3.999990625" y2="0" width="0.080009375" layer="21"/>
+<text x="26.694003125" y="22.9719875" size="1.016" layer="21">Gnd</text>
+<text x="24.281003125" y="26.7819875" size="1.016" layer="21">Vin</text>
+<text x="21.614003125" y="22.9719875" size="1.016" layer="21">3v3</text>
+<text x="19.455003125" y="26.7819875" size="1.016" layer="21">CS</text>
+<text x="17.169003125" y="22.9719875" size="1.016" layer="21">Rst</text>
+<text x="13.867003125" y="26.7819875" size="1.016" layer="21">SA0</text>
+<text x="11.454003125" y="22.9719875" size="1.016" layer="21">Clk</text>
+<text x="8.660003125" y="26.7819875" size="1.016" layer="21">Data</text>
+<text x="14.375003125" y="22.9719875" size="1.016" layer="21">DC</text>
+<pad name="JP1$1" x="10.1099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$2" x="12.6499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$3" x="15.1899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$4" x="17.7299875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$5" x="20.2699875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$6" x="22.8099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$7" x="25.3499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$8" x="27.8899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<rectangle x1="25.096" y1="25.176" x2="25.604" y2="25.684" layer="51"/>
+<rectangle x1="22.556" y1="25.176" x2="23.064" y2="25.684" layer="51"/>
+<rectangle x1="20.016" y1="25.176" x2="20.524" y2="25.684" layer="51"/>
+<rectangle x1="17.476" y1="25.176" x2="17.984" y2="25.684" layer="51"/>
+<rectangle x1="14.936" y1="25.176" x2="15.444" y2="25.684" layer="51"/>
+<rectangle x1="12.396" y1="25.176" x2="12.904" y2="25.684" layer="51"/>
+<rectangle x1="9.856" y1="25.176" x2="10.364" y2="25.684" layer="51"/>
+<rectangle x1="27.636" y1="25.176" x2="28.144" y2="25.684" layer="51"/>
+<pad name="U$23$P$1" x="35.00000625" y="25.5" drill="2.5" diameter="3.2"/>
+<circle x="35" y="25.5" radius="1.75" width="0.1524" layer="21"/>
+<circle x="35" y="25.5" radius="1" width="2.032" layer="39"/>
+<circle x="35" y="25.5" radius="1" width="2.032" layer="40"/>
+<pad name="U$26$P$1" x="2.99999375" y="25.5" drill="2.5" diameter="3.2"/>
+<circle x="3" y="25.5" radius="1.75" width="0.1524" layer="21"/>
+<circle x="3" y="25.5" radius="1" width="2.032" layer="39"/>
+<circle x="3" y="25.5" radius="1" width="2.032" layer="40"/>
+</package>
+<package name="SSD1306_128X64_0.96IN_LCD_NOMNT">
+<wire x1="0" y1="3.999990625" x2="0" y2="25" width="0.080009375" layer="21"/>
+<wire x1="3.999990625" y1="28.49999375" x2="0" y2="25" width="0.080009375" layer="21" curve="89.999384"/>
+<wire x1="3.999990625" y1="28.49999375" x2="34.000009375" y2="28.49999375" width="0.080009375" layer="21"/>
+<wire x1="38" y1="24.500003125" x2="34.000009375" y2="28.49999375" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="38" y1="24.500003125" x2="38" y2="3.999990625" width="0.080009375" layer="21"/>
+<wire x1="34.000009375" y1="0" x2="38" y2="3.999990625" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="0" y1="3.999990625" x2="3.999990625" y2="0" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="34.000009375" y1="0" x2="3.999990625" y2="0" width="0.080009375" layer="21"/>
+<text x="26.694003125" y="22.9719875" size="1.016" layer="21">Gnd</text>
+<text x="24.281003125" y="26.7819875" size="1.016" layer="21">Vin</text>
+<text x="21.614003125" y="22.9719875" size="1.016" layer="21">3v3</text>
+<text x="19.455003125" y="26.7819875" size="1.016" layer="21">CS</text>
+<text x="17.169003125" y="22.9719875" size="1.016" layer="21">Rst</text>
+<text x="13.867003125" y="26.7819875" size="1.016" layer="21">SA0</text>
+<text x="11.454003125" y="22.9719875" size="1.016" layer="21">Clk</text>
+<text x="8.660003125" y="26.7819875" size="1.016" layer="21">Data</text>
+<text x="14.375003125" y="22.9719875" size="1.016" layer="21">DC</text>
+<pad name="JP1$1" x="10.1099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$2" x="12.6499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$3" x="15.1899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$4" x="17.7299875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$5" x="20.2699875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$6" x="22.8099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$7" x="25.3499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$8" x="27.8899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<rectangle x1="25.096" y1="25.176" x2="25.604" y2="25.684" layer="51"/>
+<rectangle x1="22.556" y1="25.176" x2="23.064" y2="25.684" layer="51"/>
+<rectangle x1="20.016" y1="25.176" x2="20.524" y2="25.684" layer="51"/>
+<rectangle x1="17.476" y1="25.176" x2="17.984" y2="25.684" layer="51"/>
+<rectangle x1="14.936" y1="25.176" x2="15.444" y2="25.684" layer="51"/>
+<rectangle x1="12.396" y1="25.176" x2="12.904" y2="25.684" layer="51"/>
+<rectangle x1="9.856" y1="25.176" x2="10.364" y2="25.684" layer="51"/>
+<rectangle x1="27.636" y1="25.176" x2="28.144" y2="25.684" layer="51"/>
+</package>
+<package name="SSD1306_128X64_0.96IN_LCD_MNT">
+<wire x1="0" y1="3.999990625" x2="0" y2="25" width="0.080009375" layer="21"/>
+<wire x1="3.999990625" y1="28.49999375" x2="0" y2="25" width="0.080009375" layer="21" curve="89.999384"/>
+<wire x1="3.999990625" y1="28.49999375" x2="34.000009375" y2="28.49999375" width="0.080009375" layer="21"/>
+<wire x1="38" y1="24.500003125" x2="34.000009375" y2="28.49999375" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="38" y1="24.500003125" x2="38" y2="3.999990625" width="0.080009375" layer="21"/>
+<wire x1="34.000009375" y1="0" x2="38" y2="3.999990625" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="0" y1="3.999990625" x2="3.999990625" y2="0" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="34.000009375" y1="0" x2="3.999990625" y2="0" width="0.080009375" layer="21"/>
+<pad name="JP1$1" x="10.1099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$2" x="12.6499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$3" x="15.1899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$4" x="17.7299875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$5" x="20.2699875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$6" x="22.8099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$7" x="25.3499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$8" x="27.8899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<rectangle x1="25.096" y1="25.176" x2="25.604" y2="25.684" layer="51"/>
+<rectangle x1="22.556" y1="25.176" x2="23.064" y2="25.684" layer="51"/>
+<rectangle x1="20.016" y1="25.176" x2="20.524" y2="25.684" layer="51"/>
+<rectangle x1="17.476" y1="25.176" x2="17.984" y2="25.684" layer="51"/>
+<rectangle x1="14.936" y1="25.176" x2="15.444" y2="25.684" layer="51"/>
+<rectangle x1="12.396" y1="25.176" x2="12.904" y2="25.684" layer="51"/>
+<rectangle x1="9.856" y1="25.176" x2="10.364" y2="25.684" layer="51"/>
+<rectangle x1="27.636" y1="25.176" x2="28.144" y2="25.684" layer="51"/>
+<pad name="U$24$P$1" x="2.99999375" y="2.99999375" drill="2.5" diameter="3.2"/>
+<circle x="3" y="3" radius="1.75" width="0.1524" layer="21"/>
+<circle x="3" y="3" radius="1" width="2.032" layer="39"/>
+<circle x="3" y="3" radius="1" width="2.032" layer="40"/>
+<pad name="U$25$P$1" x="35.00000625" y="2.99999375" drill="2.5" diameter="3.2"/>
+<circle x="35" y="3" radius="1.75" width="0.1524" layer="21"/>
+<circle x="35" y="3" radius="1" width="2.032" layer="39"/>
+<circle x="35" y="3" radius="1" width="2.032" layer="40"/>
+</package>
+<package name="SSD1306_128X64_1.3IN_LCD_LEVER">
+<wire x1="0" y1="3.999990625" x2="0" y2="32.0000125" width="0.080009375" layer="21"/>
+<wire x1="3.999990625" y1="35.50000625" x2="0" y2="32.0000125" width="0.080009375" layer="21" curve="89.999384"/>
+<wire x1="3.999990625" y1="35.50000625" x2="30.9999875" y2="35.50000625" width="0.080009375" layer="21"/>
+<wire x1="35.00000625" y1="31.4999875" x2="30.9999875" y2="35.50000625" width="0.080009375" layer="21" curve="90.000766"/>
+<wire x1="35.00000625" y1="31.4999875" x2="35.00000625" y2="3.999990625" width="0.080009375" layer="21"/>
+<wire x1="30.9999875" y1="0" x2="35.00000625" y2="3.999990625" width="0.080009375" layer="21" curve="90.000363"/>
+<wire x1="0" y1="3.999990625" x2="3.999990625" y2="0" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="28.99999375" y1="5.9999875" x2="5.9999875" y2="5.9999875" width="0.080009375" layer="21"/>
+<wire x1="5.9999875" y1="1.999996875" x2="5.9999875" y2="5.9999875" width="0.080009375" layer="21"/>
+<wire x1="28.99999375" y1="5.9999875" x2="28.99999375" y2="1.999996875" width="0.080009375" layer="21"/>
+<wire x1="3.999990625" y1="0" x2="5.9999875" y2="1.999996875" width="0.080009375" layer="21" curve="90.00005"/>
+<wire x1="28.99999375" y1="1.999996875" x2="30.9999875" y2="0" width="0.080009375" layer="21" curve="89.999961"/>
+<text x="25.19400625" y="29.972" size="1.016" layer="21">Gnd</text>
+<text x="22.78100625" y="33.782" size="1.016" layer="21">Vin</text>
+<text x="20.11400625" y="29.972" size="1.016" layer="21">3v3</text>
+<text x="17.95500625" y="33.782" size="1.016" layer="21">CS</text>
+<text x="15.41500625" y="29.972" size="1.016" layer="21">Rst</text>
+<text x="12.36700625" y="33.782" size="1.016" layer="21">SA0</text>
+<text x="9.82700625" y="29.972" size="1.016" layer="21">Clk</text>
+<text x="7.16000625" y="33.782" size="1.016" layer="21">Data</text>
+<text x="12.87500625" y="29.972" size="1.016" layer="21">DC</text>
+<pad name="JP1$1" x="8.609990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$2" x="11.149990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$3" x="13.689990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$4" x="16.229990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$5" x="18.769990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$6" x="21.309990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$7" x="23.849990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$8" x="26.389990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<rectangle x1="23.596" y1="32.176" x2="24.104" y2="32.684" layer="51"/>
+<rectangle x1="21.056" y1="32.176" x2="21.564" y2="32.684" layer="51"/>
+<rectangle x1="18.516" y1="32.176" x2="19.024" y2="32.684" layer="51"/>
+<rectangle x1="15.976" y1="32.176" x2="16.484" y2="32.684" layer="51"/>
+<rectangle x1="13.436" y1="32.176" x2="13.944" y2="32.684" layer="51"/>
+<rectangle x1="10.896" y1="32.176" x2="11.404" y2="32.684" layer="51"/>
+<rectangle x1="8.356" y1="32.176" x2="8.864" y2="32.684" layer="51"/>
+<rectangle x1="26.136" y1="32.176" x2="26.644" y2="32.684" layer="51"/>
+<pad name="U$23$P$1" x="32.0000125" y="32.5000125" drill="2.5" diameter="3.2"/>
+<circle x="32" y="32.5" radius="1.75" width="0.1524" layer="21"/>
+<circle x="32" y="32.5" radius="1" width="2.032" layer="39"/>
+<circle x="32" y="32.5" radius="1" width="2.032" layer="40"/>
+<pad name="U$26$P$1" x="2.99999375" y="32.5000125" drill="2.5" diameter="3.2"/>
+<circle x="3" y="32.5" radius="1.75" width="0.1524" layer="21"/>
+<circle x="3" y="32.5" radius="1" width="2.032" layer="39"/>
+<circle x="3" y="32.5" radius="1" width="2.032" layer="40"/>
+</package>
+<package name="SSD1306_128X64_1.3IN_LCD_MNT">
+<wire x1="0" y1="3.999990625" x2="0" y2="32.0000125" width="0.080009375" layer="21"/>
+<wire x1="3.999990625" y1="35.50000625" x2="0" y2="32.0000125" width="0.080009375" layer="21" curve="89.999384"/>
+<wire x1="3.999990625" y1="35.50000625" x2="30.9999875" y2="35.50000625" width="0.080009375" layer="21"/>
+<wire x1="35.00000625" y1="31.4999875" x2="30.9999875" y2="35.50000625" width="0.080009375" layer="21" curve="90.000766"/>
+<wire x1="35.00000625" y1="31.4999875" x2="35.00000625" y2="3.999990625" width="0.080009375" layer="21"/>
+<wire x1="30.9999875" y1="0" x2="35.00000625" y2="3.999990625" width="0.080009375" layer="21" curve="90.000363"/>
+<wire x1="0" y1="3.999990625" x2="3.999990625" y2="0" width="0.080009375" layer="21" curve="89.999961"/>
+<wire x1="28.99999375" y1="5.9999875" x2="5.9999875" y2="5.9999875" width="0.080009375" layer="21"/>
+<wire x1="5.9999875" y1="1.999996875" x2="5.9999875" y2="5.9999875" width="0.080009375" layer="21"/>
+<wire x1="28.99999375" y1="5.9999875" x2="28.99999375" y2="1.999996875" width="0.080009375" layer="21"/>
+<wire x1="3.999990625" y1="0" x2="5.9999875" y2="1.999996875" width="0.080009375" layer="21" curve="90.00005"/>
+<wire x1="28.99999375" y1="1.999996875" x2="30.9999875" y2="0" width="0.080009375" layer="21" curve="89.999961"/>
+<text x="25.19400625" y="29.972" size="1.016" layer="21">Gnd</text>
+<text x="22.78100625" y="33.782" size="1.016" layer="21">Vin</text>
+<text x="20.11400625" y="29.972" size="1.016" layer="21">3v3</text>
+<text x="17.95500625" y="33.782" size="1.016" layer="21">CS</text>
+<text x="15.41500625" y="29.972" size="1.016" layer="21">Rst</text>
+<text x="12.36700625" y="33.782" size="1.016" layer="21">SA0</text>
+<text x="9.82700625" y="29.972" size="1.016" layer="21">Clk</text>
+<text x="7.16000625" y="33.782" size="1.016" layer="21">Data</text>
+<text x="12.87500625" y="29.972" size="1.016" layer="21">DC</text>
+<pad name="JP1$1" x="8.609990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$2" x="11.149990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$3" x="13.689990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$4" x="16.229990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$5" x="18.769990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$6" x="21.309990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$7" x="23.849990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$8" x="26.389990625" y="32.430009375" drill="1" diameter="1.778" rot="R90"/>
+<rectangle x1="23.596" y1="32.176" x2="24.104" y2="32.684" layer="51"/>
+<rectangle x1="21.056" y1="32.176" x2="21.564" y2="32.684" layer="51"/>
+<rectangle x1="18.516" y1="32.176" x2="19.024" y2="32.684" layer="51"/>
+<rectangle x1="15.976" y1="32.176" x2="16.484" y2="32.684" layer="51"/>
+<rectangle x1="13.436" y1="32.176" x2="13.944" y2="32.684" layer="51"/>
+<rectangle x1="10.896" y1="32.176" x2="11.404" y2="32.684" layer="51"/>
+<rectangle x1="8.356" y1="32.176" x2="8.864" y2="32.684" layer="51"/>
+<rectangle x1="26.136" y1="32.176" x2="26.644" y2="32.684" layer="51"/>
+<pad name="U$24$P$1" x="2.99999375" y="2.99999375" drill="2.5" diameter="3.2"/>
+<circle x="3" y="3" radius="1.75" width="0.1524" layer="21"/>
+<circle x="3" y="3" radius="1" width="2.032" layer="39"/>
+<circle x="3" y="3" radius="1" width="2.032" layer="40"/>
+<pad name="U$25$P$1" x="32.0000125" y="2.99999375" drill="2.5" diameter="3.2"/>
+<circle x="32" y="3" radius="1.75" width="0.1524" layer="21"/>
+<circle x="32" y="3" radius="1" width="2.032" layer="39"/>
+<circle x="32" y="3" radius="1" width="2.032" layer="40"/>
+</package>
+<package name="SSD1306_128X64_0.96IN_LCD_MNT_NOOUT">
+<pad name="JP1$1" x="10.1099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$2" x="12.6499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$3" x="15.1899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$4" x="17.7299875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$5" x="20.2699875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$6" x="22.8099875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$7" x="25.3499875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<pad name="JP1$8" x="27.8899875" y="25.429996875" drill="1" diameter="1.778" rot="R90"/>
+<rectangle x1="25.096" y1="25.176" x2="25.604" y2="25.684" layer="51"/>
+<rectangle x1="22.556" y1="25.176" x2="23.064" y2="25.684" layer="51"/>
+<rectangle x1="20.016" y1="25.176" x2="20.524" y2="25.684" layer="51"/>
+<rectangle x1="17.476" y1="25.176" x2="17.984" y2="25.684" layer="51"/>
+<rectangle x1="14.936" y1="25.176" x2="15.444" y2="25.684" layer="51"/>
+<rectangle x1="12.396" y1="25.176" x2="12.904" y2="25.684" layer="51"/>
+<rectangle x1="9.856" y1="25.176" x2="10.364" y2="25.684" layer="51"/>
+<rectangle x1="27.636" y1="25.176" x2="28.144" y2="25.684" layer="51"/>
+<pad name="U$24$P$1" x="2.99999375" y="2.99999375" drill="2.5" diameter="3.2"/>
+<circle x="3" y="3" radius="1.75" width="0.1524" layer="21"/>
+<circle x="3" y="3" radius="1" width="2.032" layer="39"/>
+<circle x="3" y="3" radius="1" width="2.032" layer="40"/>
+<pad name="U$25$P$1" x="35.00000625" y="2.99999375" drill="2.5" diameter="3.2"/>
+<circle x="35" y="3" radius="1.75" width="0.1524" layer="21"/>
+<circle x="35" y="3" radius="1" width="2.032" layer="40"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ULTIMATE_GPS">
@@ -8545,7 +8776,7 @@
 <technology name=""/>
 </technologies>
 </device>
-<device name="0.98IN" package="SSD1306_128X64_0.96IN_LCD">
+<device name="0.96IN" package="SSD1306_128X64_0.96IN_LCD">
 <connects>
 <connect gate="G$1" pin="3V3" pad="JP1$6"/>
 <connect gate="G$1" pin="CLK" pad="JP1$2"/>
@@ -8598,6 +8829,81 @@
 <connect gate="G$1" pin="DATA" pad="JP1$1"/>
 <connect gate="G$1" pin="DC" pad="JP1$3"/>
 <connect gate="G$1" pin="GND" pad="JP1$8 U$23$P$1 U$24$P$1 U$25$P$1 U$26$P$1"/>
+<connect gate="G$1" pin="RST" pad="JP1$4"/>
+<connect gate="G$1" pin="VIN" pad="JP1$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.96IN_LEVER" package="SSD1306_128X64_0.96IN_LCD_LEVER">
+<connects>
+<connect gate="G$1" pin="3V3" pad="JP1$6"/>
+<connect gate="G$1" pin="CLK" pad="JP1$2"/>
+<connect gate="G$1" pin="CS" pad="JP1$5"/>
+<connect gate="G$1" pin="DATA" pad="JP1$1"/>
+<connect gate="G$1" pin="DC" pad="JP1$3"/>
+<connect gate="G$1" pin="GND" pad="JP1$8 U$23$P$1 U$26$P$1"/>
+<connect gate="G$1" pin="RST" pad="JP1$4"/>
+<connect gate="G$1" pin="VIN" pad="JP1$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.96IN_NOMNT" package="SSD1306_128X64_0.96IN_LCD_NOMNT">
+<connects>
+<connect gate="G$1" pin="3V3" pad="JP1$6"/>
+<connect gate="G$1" pin="CLK" pad="JP1$2"/>
+<connect gate="G$1" pin="CS" pad="JP1$5"/>
+<connect gate="G$1" pin="DATA" pad="JP1$1"/>
+<connect gate="G$1" pin="DC" pad="JP1$3"/>
+<connect gate="G$1" pin="GND" pad="JP1$8"/>
+<connect gate="G$1" pin="RST" pad="JP1$4"/>
+<connect gate="G$1" pin="VIN" pad="JP1$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.96IN_MNT" package="SSD1306_128X64_0.96IN_LCD_MNT">
+<connects>
+<connect gate="G$1" pin="3V3" pad="JP1$6"/>
+<connect gate="G$1" pin="CLK" pad="JP1$2"/>
+<connect gate="G$1" pin="CS" pad="JP1$5"/>
+<connect gate="G$1" pin="DATA" pad="JP1$1"/>
+<connect gate="G$1" pin="DC" pad="JP1$3"/>
+<connect gate="G$1" pin="GND" pad="JP1$8 U$24$P$1 U$25$P$1"/>
+<connect gate="G$1" pin="RST" pad="JP1$4"/>
+<connect gate="G$1" pin="VIN" pad="JP1$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="1.3IN_LEVER" package="SSD1306_128X64_1.3IN_LCD_LEVER">
+<connects>
+<connect gate="G$1" pin="3V3" pad="JP1$6"/>
+<connect gate="G$1" pin="CLK" pad="JP1$2"/>
+<connect gate="G$1" pin="CS" pad="JP1$5"/>
+<connect gate="G$1" pin="DATA" pad="JP1$1"/>
+<connect gate="G$1" pin="DC" pad="JP1$3"/>
+<connect gate="G$1" pin="GND" pad="JP1$8 U$23$P$1 U$26$P$1"/>
+<connect gate="G$1" pin="RST" pad="JP1$4"/>
+<connect gate="G$1" pin="VIN" pad="JP1$7"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="0.96IN_MNT_NOOUT" package="SSD1306_128X64_0.96IN_LCD_MNT_NOOUT">
+<connects>
+<connect gate="G$1" pin="3V3" pad="JP1$6"/>
+<connect gate="G$1" pin="CLK" pad="JP1$2"/>
+<connect gate="G$1" pin="CS" pad="JP1$5"/>
+<connect gate="G$1" pin="DATA" pad="JP1$1"/>
+<connect gate="G$1" pin="DC" pad="JP1$3"/>
+<connect gate="G$1" pin="GND" pad="JP1$8 U$24$P$1 U$25$P$1"/>
 <connect gate="G$1" pin="RST" pad="JP1$4"/>
 <connect gate="G$1" pin="VIN" pad="JP1$7"/>
 </connects>
