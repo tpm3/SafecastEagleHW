@@ -1,7 +1,7 @@
 Safecast
-P/N: bGeigieNano Kit Yellow v1.0
+P/N: bGeigieNano Kit Blue v1.0r2
 
-Quantity: 10
+Quantity: 100
 Layers: 2
 Copper: 1oz. base copper weight
 Thickness: 0.062" FR4
@@ -10,7 +10,7 @@ Plating: Gold
 Silkscreen: White
 
 Notes: 
-N/A
+Do not add an Immaginaering marking to any of the silk layers.
 
 Printouts:
 bGeigieNanoKit.pdf - PDF of schematic
