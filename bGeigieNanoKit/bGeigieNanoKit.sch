@@ -11885,7 +11885,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <part name="R4" library="rcl" deviceset="R-US_" device="0207/10" value="1k"/>
 <part name="R5" library="rcl" deviceset="R-US_" device="0207/10" value="1k"/>
 <part name="R6" library="rcl" deviceset="R-US_" device="0207/10" value="100k"/>
-<part name="R7" library="rcl" deviceset="R-US_" device="0207/10" value="51 Ohm"/>
+<part name="R7" library="rcl" deviceset="R-US_" device="0207/10" value="  51"/>
 <part name="R8" library="rcl" deviceset="R-US_" device="0207/10" value="47k"/>
 <part name="R9" library="rcl" deviceset="R-US_" device="0207/10" value="4.7k"/>
 <part name="R10" library="rcl" deviceset="R-US_" device="0207/10" value="1k"/>
@@ -11938,7 +11938,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <instance part="SUPPLY7" gate="GND" x="93.98" y="63.5"/>
 <instance part="SUPPLY8" gate="GND" x="101.6" y="60.96"/>
 <instance part="SUPPLY9" gate="GND" x="185.42" y="88.9"/>
-<instance part="SUPPLY10" gate="GND" x="170.18" y="124.46"/>
+<instance part="SUPPLY10" gate="GND" x="170.18" y="119.38"/>
 <instance part="R1" gate="G$1" x="160.02" y="104.14" rot="R180"/>
 <instance part="R2" gate="G$1" x="152.4" y="96.52" rot="R90"/>
 <instance part="R3" gate="G$1" x="165.1" y="147.32"/>
@@ -12083,7 +12083,7 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <wire x1="165.1" y1="127" x2="167.64" y2="127" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="127" x2="167.64" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="SUPPLY10" gate="GND" pin="GND"/>
-<wire x1="170.18" y1="127" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="121.92" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="167.64" y1="129.54" x2="170.18" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="GND@2"/>
 <wire x1="165.1" y1="129.54" x2="165.1" y2="127" width="0.1524" layer="91"/>

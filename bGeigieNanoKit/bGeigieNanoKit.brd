@@ -112,6 +112,7 @@
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
 <layer number="220" name="220bmp" color="21" fill="1" visible="no" active="no"/>
 <layer number="221" name="221bmp" color="22" fill="1" visible="no" active="no"/>
+<layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
 <layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
@@ -134,7 +135,6 @@
 <wire x1="1.5875" y1="7.9375" x2="7.9375" y2="1.5875" width="0" layer="20" curve="90"/>
 <wire x1="7.9375" y1="1.5875" x2="100.0125" y2="1.5875" width="0" layer="20"/>
 <wire x1="100.0125" y1="1.5875" x2="106.3625" y2="7.9375" width="0" layer="20" curve="90"/>
-<wire x1="106.3625" y1="7.9375" x2="106.3625" y2="29.21" width="0" layer="20"/>
 <wire x1="106.3625" y1="29.21" x2="95.885" y2="29.21" width="0" layer="20"/>
 <wire x1="95.885" y1="29.21" x2="95.885" y2="59.69" width="0" layer="20"/>
 <wire x1="95.885" y1="59.69" x2="106.3625" y2="59.69" width="0" layer="20"/>
@@ -151,35 +151,14 @@
   LOG</text>
 <text x="71.12" y="10.16" size="5.08" layer="21" font="vector" ratio="10" rot="R90">GPS</text>
 <text x="13.6525" y="18.0975" size="1.27" layer="21" font="vector" ratio="10" rot="SR0">Audio out</text>
-<text x="101.2825" y="11.1125" size="2.54" layer="21" font="vector" ratio="10" rot="R180">+</text>
+<text x="101.2825" y="8.5725" size="2.54" layer="21" font="vector" ratio="10" rot="R180">+</text>
 <text x="92.71" y="11.1125" size="2.54" layer="21" font="vector" ratio="10" rot="R180">-</text>
-<text x="92.075" y="8.5725" size="2.54" layer="22" font="vector" ratio="10" rot="MR0">-</text>
 <text x="100.6475" y="8.5725" size="2.54" layer="22" font="vector" ratio="10" rot="MR0">+</text>
 <text x="81.915" y="66.675" size="1.27" layer="22" font="vector" ratio="10" distance="60" rot="MR0" align="top-left">Special thanks to: Joe,Rob,Jurgen,Sean,Robin,Akiba,Azby
 Shigeru,Joi,Dan,Peter,Joseph,Medcom,Loftwork,FabCafe
 Pelican,Tokyo Hacker Space,CRASH Space,Adafruit,Sparkfun</text>
 <text x="6.0325" y="19.05" size="2.54" layer="21" font="vector" ratio="10" distance="40" rot="R90">bGeigie Nano Kit</text>
 <text x="9.2075" y="10.4775" size="2.1844" layer="21" font="vector" ratio="9" rot="SR180">Fn</text>
-<polygon width="0.254" layer="21">
-<vertex x="76.2" y="34.29"/>
-<vertex x="77.47" y="35.56"/>
-<vertex x="85.09" y="35.56"/>
-<vertex x="86.36" y="34.29"/>
-<vertex x="86.36" y="30.48"/>
-<vertex x="85.09" y="29.21"/>
-<vertex x="76.2" y="29.21"/>
-<vertex x="74.93" y="30.48"/>
-<vertex x="74.93" y="31.75"/>
-<vertex x="76.2" y="31.75"/>
-</polygon>
-<polygon width="0.254" layer="21">
-<vertex x="38.1" y="48.26"/>
-<vertex x="43.18" y="48.26"/>
-<vertex x="44.45" y="46.99"/>
-<vertex x="44.45" y="41.91"/>
-<vertex x="43.18" y="40.64"/>
-<vertex x="38.1" y="40.64"/>
-</polygon>
 <text x="7.9375" y="58.1025" size="2.54" layer="22" font="vector" ratio="10" distance="40" rot="SMR270">bGeigie Nano Kit v1.0r2</text>
 </plain>
 <libraries>
@@ -5873,15 +5852,15 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="34.036" y="34.7345" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="33.9725" y="41.2369" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R7" library="rcl" package="0207/10" value="51 Ohm" x="22.86" y="43.4975" smashed="yes" rot="R90">
+<element name="R7" library="rcl" package="0207/10" value="  51" x="22.86" y="43.4975" smashed="yes" rot="R90">
 <attribute name="NAME" x="23.5585" y="34.7345" size="1.27" layer="25" ratio="10" rot="R90"/>
 <attribute name="VALUE" x="23.495" y="39.9669" size="1.27" layer="27" ratio="10" rot="R90"/>
 </element>
-<element name="R8" library="rcl" package="0207/10" value="10k" x="29.845" y="26.67" smashed="yes">
+<element name="R8" library="rcl" package="0207/10" value="47k" x="29.845" y="26.67" smashed="yes">
 <attribute name="NAME" x="36.6395" y="26.289" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="28.2194" y="26.035" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="R9" library="rcl" package="0207/10" value="2.2k" x="29.845" y="24.13" smashed="yes">
+<element name="R9" library="rcl" package="0207/10" value="4.7k" x="29.845" y="24.13" smashed="yes">
 <attribute name="NAME" x="36.6395" y="23.749" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="30.8356" y="24.765" size="1.27" layer="27" ratio="10" rot="R180"/>
 </element>
@@ -5909,9 +5888,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="35.8775" y="53.848" size="1.27" layer="25" ratio="10"/>
 <attribute name="VALUE" x="34.29" y="53.848" size="1.27" layer="27" ratio="10" display="off"/>
 </element>
-<element name="OPENLOG" library="open_hw_sockets" package="OPENLOG" value="OPENLOG" x="86.6775" y="26.3525" smashed="yes" rot="R270">
-<attribute name="NAME" x="96.3295" y="25.0825" size="2.54" layer="25" rot="SR270" display="off"/>
-</element>
+<element name="OPENLOG" library="open_hw_sockets" package="OPENLOG" value="OPENLOG" x="86.6775" y="26.3525" rot="R270"/>
 <element name="SW1" library="special" package="EDG-02" value="" x="17.145" y="64.135" smashed="yes" rot="SR90">
 <attribute name="VALUE" x="23.749" y="60.833" size="1.27" layer="27" ratio="10" rot="SR90"/>
 <attribute name="NAME" x="11.811" y="62.4205" size="1.27" layer="25" ratio="10" rot="SR90"/>
