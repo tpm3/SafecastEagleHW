@@ -12574,9 +12574,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 </sheet>
 </sheets>
 <errors>
-<approved hash="202,1,27.94,116.84,GPS,EN,,,,"/>
-<approved hash="104,1,27.94,114.3,GPS,VBAT,VGPS,,,"/>
-<approved hash="104,1,27.94,101.6,GPS,VIN,VCC,,,"/>
+<approved hash="202,1,22.86,116.84,GPS,EN,,,,"/>
+<approved hash="104,1,22.86,114.3,GPS,VBAT,VGPS,,,"/>
+<approved hash="104,1,22.86,101.6,GPS,VIN,VCC,,,"/>
 <approved hash="104,1,83.82,88.9,FIO,3V3,VCC,,,"/>
 <approved hash="104,1,114.3,93.98,FIO,3V3,VCC,,,"/>
 <approved hash="202,1,5.08,73.66,OPENLOG,RST,,,,"/>
@@ -12587,9 +12587,9 @@ Source: TOSHIBA .. 2SC1815   1.pdf</description>
 <approved hash="115,1,187.829,119.38,SW1,,,,,"/>
 <approved hash="115,1,130.071,89.431,FRAME2,,,,,"/>
 <approved hash="115,1,137.837,114.495,JP4,,,,,"/>
-<approved hash="115,1,39.7031,116.451,JP6,,,,,"/>
 <approved hash="115,1,125.137,96.7147,JP8,,,,,"/>
 <approved hash="115,1,233.917,71.2512,JP2,,,,,"/>
+<approved hash="115,1,34.0445,119.38,SJ1,,,,,"/>
 </errors>
 </schematic>
 </drawing>
