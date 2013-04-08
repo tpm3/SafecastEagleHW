@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -4408,6 +4408,7 @@
 <wire x1="1.27" y1="-12.065" x2="0.635" y2="-6.985" width="0.127" layer="51"/>
 <wire x1="-1.27" y1="-12.065" x2="0" y2="-13.335" width="0.127" layer="51" curve="90"/>
 <wire x1="0" y1="-13.335" x2="1.27" y2="-12.065" width="0.127" layer="51" curve="90"/>
+<text x="-2.54" y="-5.715" size="1.27" layer="25">&gt;NAME</text>
 </package>
 <package name="SSD1306_128X64_1.3IN_LCD">
 <wire x1="0" y1="3.999990625" x2="0" y2="32.0000125" width="0.080009375" layer="21"/>
@@ -9432,7 +9433,7 @@
 <pad name="MT1" x="-6.25" y="0" drill="2.2" diameter="3"/>
 <pad name="1" x="-3" y="0" drill="0.8" diameter="1.6764"/>
 <pad name="3" x="3" y="0" drill="0.8" diameter="1.6764"/>
-<text x="-2.7" y="3.035" size="1.27" layer="21" font="vector">&gt;NAME</text>
+<text x="-2.7" y="3.035" size="1.27" layer="25" font="vector">&gt;NAME</text>
 <wire x1="-6.5" y1="2.8" x2="-6.5" y2="1.7" width="0.127" layer="21"/>
 <wire x1="-6.5" y1="-2.8" x2="-6.5" y2="-1.7" width="0.127" layer="21"/>
 <wire x1="6.5" y1="2.8" x2="6.5" y2="1.7" width="0.127" layer="21"/>
