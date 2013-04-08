@@ -1,13 +1,13 @@
-Data Exported from: C:/Users/ndbusek/Documents/eagle/bGeigieNano/hardware/bGeigieNanoKit/bGeigieNanoKit.brd
+Data Exported from: C:/Users/ndbusek/Documents/eagle/SafecastEagleHW/bGeigieNanoKit/bGeigieNanoKit.brd
 with: C:/Program Files (x86)/EAGLE-6.4.0/ulp/statistic-brd.ulp Version 1.3.8
-at: 2013-04-03 14:15:13
+at: 2013-04-08 15:12:49
 EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
 
-all Values in mm
+all Values in Inch
 max. Board length (Layer 20)
-X = 104.78
-Y = 66.67
-Outline contour = 352.95
+X = 4.12
+Y = 2.62
+Outline contour = 13.90
 
 used layers 2
 
@@ -15,32 +15,32 @@ used layers 2
 16 Bottom
 _________________________
 
-207   	 Wire(s) incl. Arc(s)
+204   	 Wire(s) incl. Arc(s)
 2     	 Polygon(s)
 _________________________
 0     	 SMD(s) top
-2     	 SMD(s) bottom
+3     	 SMD(s) bottom
 ===================
-2     	 SMD(s) total
+3     	 SMD(s) total
 
 149   	 PAD(s)
 _________________________
-9     	 Via
+11    	 Via
 0     	 Hole
 ===================
-158   	 Drills total
+160   	 Drills total
 _________________________
 0	 tCream
-2	 bCream
+3	 bCream
 _________________________
 Routing Info: 
 42    	 Signal(s) 
-151   	 PAD/SMD total
+152   	 PAD/SMD total
 ===================
 133   	 PAD/SMD on Signal
 _________________________
 Packages used area:
-~ 7631.46 mm² (0.763 dm²)
+~ 11.80 mm² (0.001 dm²)
 _________________________
 
 
@@ -160,24 +160,24 @@ Nb.	Name	Used
 ----------------------------
 CLASS
 # 	Name	min. Width	Clearance	min. Drill	Used
-0	default	0.4064 	0.3048 	0.2540 	38  
-1	PWP	0.8128 	0.3048 	0.2540 	2   
-2	HIGH_PWR	1.4224 	0.4064 	0.5080 	2   
+0	default	0.016000 	0.012000 	0.010000 	38  
+1	PWP	0.032000 	0.012000 	0.010000 	2   
+2	HIGH_PWR	0.056000 	0.016000 	0.020000 	2   
 
 ----------------------------
 WIDTH
 WIRE	Q.
-0.6096 	171 
-1.4224 	36  
+0.024000 	168 
+0.056000 	36  
 
 ARC	Q.
  * Wire width are saved in 0.2 micron resolution.
 
 POLY. width	Q.
-0.8128 	2   
+0.032000 	2   
 
 POLY. Isol.	Q.
-0.3048 	2   
+0.012000 	2   
 
 Polygon
 Type	Name	Layer	Rank	Width
@@ -197,114 +197,117 @@ TEXT (s)	Q.
 
 ----------------------------
 SMD x	SMD y	Roundn.	Q.
-0.6350 	1.2700 	0%	2   
+0.046000 	0.063000 	0%	2   
+0.025000 	0.008000 	0%	1   
 
 PAD tDiam	Q.
-1.2192 	35  
-1.6764 	11  
-1.3500 	2   
-1.8796 	64  
-1.7780 	19  
-3.2160 	4   
-1.5240 	3   
-3.5160 	2   
-1.2000 	5   
-4.0160 	4   
+0.048000 	35  
+0.066000 	11  
+0.053150 	2   
+0.074000 	64  
+0.070000 	19  
+0.126614 	4   
+0.060000 	3   
+0.138425 	2   
+0.047244 	5   
+0.158110 	4   
 
 PAD bDiam	Q.
-1.2192 	35  
-1.6764 	11  
-1.3500 	2   
-1.8796 	64  
-1.7780 	19  
-3.2160 	4   
-1.5240 	3   
-3.5160 	2   
-1.2000 	5   
-4.0160 	4   
+0.048000 	35  
+0.066000 	11  
+0.053150 	2   
+0.074000 	64  
+0.070000 	19  
+0.126614 	4   
+0.060000 	3   
+0.138425 	2   
+0.047244 	5   
+0.158110 	4   
 
 PAD tRestring	Q.
-0.2032 	35  
-0.4318 	68  
-0.2250 	2   
-0.3890 	17  
-0.5080 	10  
-0.2540 	3   
-0.3382 	4   
-0.4382 	3   
-0.4390 	2   
-0.2000 	5   
+0.008000 	35  
+0.017000 	68  
+0.008858 	2   
+0.015315 	17  
+0.020000 	10  
+0.010000 	3   
+0.013315 	4   
+0.017252 	3   
+0.007874 	5   
+0.017283 	2   
 
 PAD bRestring	Q.
-0.2032 	35  
-0.4318 	68  
-0.2250 	2   
-0.3890 	17  
-0.5080 	10  
-0.2540 	3   
-0.3382 	4   
-0.4382 	3   
-0.4390 	2   
-0.2000 	5   
+0.008000 	35  
+0.017000 	68  
+0.008858 	2   
+0.015315 	17  
+0.020000 	10  
+0.010000 	3   
+0.013315 	4   
+0.017252 	3   
+0.007874 	5   
+0.017283 	2   
 
 PAD iDiam	Q.
-1.2192 	39  
-1.3500 	4   
-1.5240 	67  
-1.5000 	21  
-3.2160 	4   
-3.5160 	2   
-1.2000 	8   
-4.0160 	4   
+0.048000 	39  
+0.053150 	4   
+0.060000 	67  
+0.059055 	21  
+0.126614 	4   
+0.138425 	2   
+0.047244 	8   
+0.158110 	4   
 
 PAD iRestring	Q.
-0.2032 	39  
-0.2250 	4   
-0.2540 	67  
-0.2500 	21  
-0.5080 	10  
-0.2000 	8   
+0.008000 	39  
+0.008858 	4   
+0.010000 	67  
+0.009843 	21  
+0.020000 	10  
+0.007874 	8   
 
 VIA Outer-Diam	Q.
-0.9556 	9   
+0.037622 	11  
 
 VIA Outer-Restring 	Q.
-0.1778 	9   
+0.007000 	11  
 
 VIA Inner-Diam.	Q.
-0.9556 	9   
+0.037622 	11  
 
 VIA Inner-Restring	Q.
-0.1778 	9   
+0.007000 	11  
 
 VIA drill	Q.
-0.6000 	9   
+0.023622 	11  
 
 VIA Stack	Q.
-01-16	9   
+01-16	11  
 01-16-PAD	149 
 
 PAD drill	Q.
-0.8128 	39  
-0.9000 	4   
-1.0160 	67  
-1.0000 	21  
-2.2000 	4   
-2.5000 	2   
-0.8000 	8   
-3.0000 	4   
+0.032000 	39  
+0.035433 	4   
+0.040000 	67  
+0.039370 	21  
+0.086614 	4   
+0.098425 	2   
+0.031496 	8   
+0.118110 	4   
 
 ----------------------------
 HOLE drill	Q.
 
 RACK
-T01   0.6
-T02   0.8
-T03   0.9
-T04   1.0
-T05   2.2
-T06   2.5
-T07   3.0
+T01 0.024
+T02 0.031
+T03 0.032
+T04 0.035
+T05 0.039
+T06 0.040
+T07 0.087
+T08 0.098
+T09 0.118
 
 ----------------------------
 LIBRARY	Q.
@@ -312,8 +315,8 @@ rcl	14
 adafruit	3   
 open_hw_sockets	8   
 pinhead	1   
-microbuilder	5   
-SparkFun	5   
+microbuilder	6   
+SparkFun	4   
 special	1   
 transistor	1   
 
@@ -326,18 +329,18 @@ ULTIMATE_GPS_V3_TOP	1
 1X03/90	1   
 1X04_ROUND	1   
 1X08	1   
-SJ_2S-NO	1   
 1X06	1   
 SSD1306_128X64_1.3IN_LCD_LEVER	1   
 OPENLOG	1   
 0207/10	11  
 EG1206	1   
+A12AH	1   
 TACTILE-PTH	1   
 BUZZER-12MM	1   
+SOLDERJUMPER_CLOSEDWIRE	1   
 EDG-02	1   
 TO92-ECB	1   
 SAFECAST_LOGO4	1   
-A12AH	1   
 SAFECAST_LOGO2	1   
 MOUNTINGHOLE_3.0_PLATEDTHIN	4   
 
@@ -350,7 +353,6 @@ ULTIMATE_GPSTOP	ULTIMATE_GPS_V3_TOP	1	1	0
 ~/-empty-/~JP1	1X03/90	1	0	1
 ~/-empty-/~JP2	1X04_ROUND	1	1	0
 ~/-empty-/~JP4	1X08	1	1	0
-~/-empty-/~JP6	SJ_2S-NO	1	0	1
 ~/-empty-/~JP8	1X06	1	1	0
 SSD1306_128X64_V2_LCD1.3IN_LEVER	SSD1306_128X64_1.3IN_LCD_LEVER	1	1	0
 RED	LED3MM	1	1	0
@@ -363,12 +365,13 @@ OPENLOG	OPENLOG	1	1	0
 10k	0207/10	1	1	0
 2.2k	0207/10	1	1	0
 EG1206	EG1206	1	1	0
+A12JH	A12AH	1	1	0
 ~/-empty-/~S5	TACTILE-PTH	1	1	0
 BUZZER	BUZZER-12MM	1	1	0
+~/-empty-/~SJ1	SOLDERJUMPER_CLOSEDWIRE	1	0	1
 ~/-empty-/~SW1	EDG-02	1	1	0
 2SC1815	TO92-ECB	1	1	0
 ~/-empty-/~U$1	SAFECAST_LOGO4	1	0	1
-A12JH	A12AH	1	1	0
 ~/-empty-/~U$5	SAFECAST_LOGO2	1	1	0
 MOUNTINGHOLE3.0THIN	MOUNTINGHOLE_3.0_PLATEDTHIN	4	4	0
 
@@ -387,17 +390,16 @@ TEXT (w)	Q.
 0 TEXT wire width (copper)
 
 TEXT 	Q.
-1.6764 	1   
-5.0800 	3   
-2.5400 	7   
-1.2700 	51  
-2.1844 	1   
-1.7780 	2   
-0.4064 	1   
-1.0160 	9   
-0.8128 	6   
-9 TEXT size (place)
-9 TEXT wire width (place)
+0.066000 	1   
+0.200000 	3   
+0.100000 	7   
+0.050000 	50  
+0.086000 	1   
+0.070000 	2   
+0.040000 	9   
+0.032000 	7   
+8 TEXT size (place)
+8 TEXT wire width (place)
 
 CIRCLE diam.	Q.
 0 CIRCLE (copper)

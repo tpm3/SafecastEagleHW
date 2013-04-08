@@ -1,0 +1,39 @@
+Partlist exported from C:/Users/ndbusek/Documents/eagle/SafecastEagleHW/bGeigieNanoKit/bGeigieNanoKit.sch at 2013-04-08 15:44:44
+
+Part      Value                            Device                           Package                        Description                                  
+C1        0.1uF                            C-EU025-024X044                  C025-024X044                   CAPACITOR, European symbol                   
+C2        0.1uF                            C-EU025-024X044                  C025-024X044                   CAPACITOR, European symbol                   
+C3        0.1uF                            C-EU025-024X044                  C025-024X044                   CAPACITOR, European symbol                   
+COUNT     BLUE                             LED3MM                           LED3MM                         LED                                          
+D1                                         DIODEDO-1N4148                   DO-1N4148                      Diode                                        
+FIO       FIO_SOCKETBOT                    FIO_SOCKETBOT                    FIO_V23_SOCKET_BOT                                                          
+GPS       ULTIMATE_GPSTOP                  ULTIMATE_GPSTOP                  ULTIMATE_GPS_V3_TOP                                                         
+JP1                                        PINHD-1X3/90                     1X03/90                        PIN HEADER                                   
+JP2                                        HEADER-1X4ROUND                  1X04_ROUND                     PIN HEADER                                   
+JP4                                        M081X08                          1X08                           Header 8                                     
+JP8                                        M06SIP                           1X06                           Header 6                                     
+LCD       SSD1306_128X64_V2_LCD1.3IN_LEVER SSD1306_128X64_V2_LCD1.3IN_LEVER SSD1306_128X64_1.3IN_LCD_LEVER                                              
+LOG/ALARM RED                              LED3MM                           LED3MM                         LED                                          
+OPENLOG   OPENLOG                          OPENLOG                          OPENLOG                                                                     
+R1        9.1k                             R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R2        1k                               R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R3        47k                              R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R4        1k                               R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R5        1k                               R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R6        100k                             R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R7        51 Ohm                           R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R8        10k                              R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R9        2.2k                             R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R10       1k                               R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+R12       1k                               R-US_0207/10                     0207/10                        RESISTOR, American symbol                    
+S1        EG1206                           EG1206                           EG1206                         E-Switch right-angle slide SPDT Part #EG1213 
+S2        A12JH                            A12JH                            A12AH                                                                       
+S5                                         SWITCH-MOMENTARY-2PTH            TACTILE-PTH                                                                 
+SG1       BUZZER                           BUZZERPTH                        BUZZER-12MM                    Buzzer 12mm                                  
+SJ1                                        SOLDERJUMPERCLOSED               SOLDERJUMPER_CLOSEDWIRE        SMD Solder JUMPER                            
+SW1                                        SW_DIP-2                         EDG-02                         DIP SWITCH                                   
+T1        2SC1815                          2SC1815                          TO92-ECB                       NPN EPITAXIAL TRANSISTOR                     
+U$6       MOUNTINGHOLE3.0THIN              MOUNTINGHOLE3.0THIN              MOUNTINGHOLE_3.0_PLATEDTHIN    Mounting Hole                                
+U$7       MOUNTINGHOLE3.0THIN              MOUNTINGHOLE3.0THIN              MOUNTINGHOLE_3.0_PLATEDTHIN    Mounting Hole                                
+U$8       MOUNTINGHOLE3.0THIN              MOUNTINGHOLE3.0THIN              MOUNTINGHOLE_3.0_PLATEDTHIN    Mounting Hole                                
+U$9       MOUNTINGHOLE3.0THIN              MOUNTINGHOLE3.0THIN              MOUNTINGHOLE_3.0_PLATEDTHIN    Mounting Hole                                
